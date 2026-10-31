@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Techniques · Ritual Archive for Terraria</title>
+<meta name="description" content="Every cursed technique in the Ritual Archive Terraria mod: arts, passives, Maximums, Domains and feats, with numbers for your level.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="index.html">Ritual Archive</a>
+  <nav aria-label="Site">
+    <a href="index.html">Overview</a>
+    <a href="rules.html">Rules</a>
+    <a href="techniques.html" aria-current="page">Techniques</a>
+  </nav>
+</header>
+
+<main class="page wide">
+  <p class="eyebrow">Reference</p>
+  <h1>Techniques</h1>
+  <p class="lede">All <span id="total">269</span> cursed techniques, read straight from the mod. Open one to see its arts, passives, Maximum, Domain and feats.</p>
+
+  <div class="filters" role="search">
+    <input type="search" id="q" placeholder="Search names, arts, effects" aria-label="Search techniques">
+    <select id="collection" aria-label="Collection"><option value="">All collections</option></select>
+    <select id="role" aria-label="Role"><option value="">All roles</option></select>
+    <label><input type="checkbox" id="domainOnly"> Has a Domain</label>
+    <label>Level <input type="range" id="level" min="1" max="20" value="20" aria-label="Level"><span class="lvl" id="levelOut">20</span></label>
+    <label>Max life <input type="number" id="life" min="100" max="1000" step="20" value="400" aria-label="Max life"></label>
+    <span class="count" id="count"></span>
+  </div>
+  <p class="ref-note">Numbers are averages at the level you pick, the same way the in-game book shows them. Damage jumps at Wall of Flesh, Plantera, the Lunatic Cultist and the Moon Lord. Healing and shields grow with max life. Greyed lines unlock later.</p>
+
+  <div id="list"></div>
+  <p class="empty" id="empty" hidden>No technique matches. Try a shorter search or clear a filter.</p>
+</main>
+
+<footer class="site-foot">Fan project: non-commercial, not affiliated with or endorsed by the rights holders of any referenced work.</footer>
+<script src="assets/describe.js"></script>
+<script src="assets/reference.js"></script>
+</body>
+</html>

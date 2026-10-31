@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rules · Ritual Archive for Terraria</title>
+<meta name="description" content="How the Ritual Archive Terraria mod plays: levels, classes, Cursed Energy, arts, Domains, Black Flash, RCT, feats and settings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="index.html">Ritual Archive</a>
+  <nav aria-label="Site">
+    <a href="index.html">Overview</a>
+    <a href="rules.html" aria-current="page">Rules</a>
+    <a href="techniques.html">Techniques</a>
+  </nav>
+</header>
+
+<div class="rules">
+  <aside class="toc" aria-label="Contents">
+    <p>Contents</p>
+    <ol>
+      <li><a href="#book">The book</a></li>
+      <li><a href="#levels">Levels</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#ce">Cursed Energy</a></li>
+      <li><a href="#arts">Casting arts</a></li>
+      <li><a href="#damage">Damage and effects</a></li>
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#blackflash">Black Flash and the Zone</a></li>
+      <li><a href="#rct">Reverse Cursed Technique</a></li>
+      <li><a href="#feats">Feats</a></li>
+      <li><a href="#scrolls">Blank Scrolls</a></li>
+      <li><a href="#mp">Multiplayer and PvP</a></li>
+      <li><a href="#settings">Settings</a></li>
+    </ol>
+  </aside>
+
+  <article>
+    <p class="eyebrow">How it plays</p>
+    <h1>Rules</h1>
+    <p class="lede">The archive's rules, as they work in real time. One round is 6 seconds, 5 feet is 2.5 tiles, and the in-game book shows every number as it plays at your level.</p>
+
+    <h2 id="book">The Ritual Archive book</h2>
+    <p>Every character starts with the book. Open it with <kbd>K</kbd> (or use the item). It holds your class, your technique, your feats and your status: level, CE, refinement, and which features you've unlocked.</p>
+    <ul>
+      <li>You pick <b>one class</b> and <b>one innate technique</b>. A new technique replaces the old one.</li>
+      <li>Each technique's page lists its arts with their unlock level and cost, plus its passives, Maximum, Domain and feats. Anything above your level is shown greyed out.</li>
+    </ul>
+
+    <h2 id="levels">Levels</h2>
+    <p>Your level (1 to 20) comes from bosses. A <b>milestone</b> boss lifts you to the start of a new band. Every other boss adds one level, up to the band's cap. Each boss counts once per character. A kill made while you're at the cap is banked and applies when the next milestone lifts it.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Band</th><th>Milestone</th><th>Other bosses (+1 each)</th><th>Cap</th></tr></thead>
+      <tbody>
+        <tr><td>Start</td><td>Level 1</td><td>King Slime</td><td>2</td></tr>
+        <tr><td>Early</td><td>Eye of Cthulhu → 3</td><td>Eater of Worlds or Brain of Cthulhu, Queen Bee, Skeletron, Deerclops</td><td>5</td></tr>
+        <tr><td>Hardmode</td><td>Wall of Flesh → 6</td><td>Queen Slime, The Destroyer, The Twins, Skeletron Prime</td><td>10</td></tr>
+        <tr><td>Late</td><td>Plantera → 11</td><td>Golem, Duke Fishron, Empress of Light, Pumpking, Ice Queen, Martian Saucer</td><td>17</td></tr>
+        <tr><td>Endgame</td><td>Lunatic Cultist → 18</td><td>All four Celestial Pillars</td><td>19</td></tr>
+        <tr><td>Final</td><td>Moon Lord → 20</td><td></td><td></td></tr>
+      </tbody>
+    </table></div>
+    <p>Your level sets your <b>mastery bonus</b> (2 at level 1, rising to 6 at 17) and your <b>CE power</b> (3, then 4 from level 6, then 5 from 11). Many arts grow with both. The book already does that math for you.</p>
+
+    <h2 id="classes">Classes</h2>
+    <p>Each class sets how much CE you have and gives you features on a level schedule, including a <b>Class Art</b> on <kbd>N</kbd> (hold <kbd>Down</kbd> for its second use). Max CE is the class's starting reserve, plus its gain per level, plus your CE power.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Class</th><th>CE at level 1</th><th>Gain per level</th><th>CE at 20</th></tr></thead>
+      <tbody>
+        <tr><td>Juggernaut</td><td>7</td><td>+3</td><td>66</td></tr>
+        <tr><td>Scout</td><td>9</td><td>+4</td><td>87</td></tr>
+        <tr><td>Warrior</td><td>9</td><td>+4</td><td>87</td></tr>
+        <tr><td>Shikigami User</td><td>9</td><td>+4</td><td>87</td></tr>
+        <tr><td>Support Specialist</td><td>11</td><td>+5</td><td>108</td></tr>
+        <tr><td>Strategist</td><td>13</td><td>+6</td><td>129</td></tr>
+        <tr><td>Heavenly Restriction</td><td>0</td><td>none</td><td>0</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted">Heavenly Restriction has no CE, no technique and no Domain. It gets a body built past every limit instead.</p>
+    <div id="classList"><p class="muted">Loading the class features…</p></div>
+
+    <h2 id="ce">Cursed Energy</h2>
+    <ul>
+      <li>Every art lists its CE cost. If you can't pay all of it, the art doesn't fire. CE spent on a miss isn't refunded.</li>
+      <li>CE <b>refills on its own</b>: a full bar in about 30 seconds out of combat, and 45 seconds in a fight. You're in a fight if you dealt or took damage in the last 5 seconds. There are no CE potions.</li>
+      <li>The CE bar sits at the bottom of the screen. The squares above it are your cooldowns.</li>
+      <li>A <b>long rest</b> comes every 8 in-game hours. Arts marked "once per long rest" come back then, along with other daily features.</li>
+    </ul>
+
+    <h2 id="arts">Casting arts</h2>
+    <ul>
+      <li><kbd>Z</kbd> casts the selected art and <kbd>V</kbd> switches to the next one. <kbd>F</kbd> casts the technique's quick art, and <kbd>X</kbd> its Maximum. Technique Keys <kbd>Q</kbd> <kbd>Y</kbd> <kbd>U</kbd> <kbd>P</kbd> do whatever that technique gives them.</li>
+      <li>Some techniques also put a cycle art on <kbd>F</kbd> or <kbd>Q</kbd> as a shortcut, so you can fire their main attacks without switching. The reference lists these under "Shortcut keys".</li>
+      <li>Arts marked <b>hold to charge</b> pour CE in while you hold the key and fire when you let go.</li>
+      <li>An ordinary art takes half a second and shares a short cooldown with other ordinary arts. <b>Quick</b> arts have no cast time and share a 1-second cooldown. <b>Instant</b> arts (often toggles) have no cooldown. A <b>1 s channel</b> holds you in place for a second.</li>
+      <li>An art that can't do anything (no target in range, for example) costs nothing.</li>
+      <li><b>Focus:</b> some effects need your Focus, and you can only hold one at a time. It breaks only on a single hit of a quarter of your max life or more, or when you're stunned or frozen.</li>
+      <li>During <b>Burnout</b> your technique is locked. Weapons and RCT still work.</li>
+    </ul>
+
+    <h2 id="damage">Damage and effects</h2>
+    <ul>
+      <li>Arts deal <b>cursed damage</b>, which your generic damage bonuses also boost. Each art's base damage grows with your level, with big jumps at Wall of Flesh, Plantera, the Lunatic Cultist and the Moon Lord.</li>
+      <li>Every effect expires: zones, auras, damage over time and summons all have a timer, and summons have a cap.</li>
+      <li>Enemies never roll hidden saves. Dodgeable attacks are skillshots, pushes and holds depend on the target's knockback resistance, and mind effects work fully on ordinary enemies.</li>
+      <li>Bosses <b>resist</b> control effects, but are never flatly immune. Bosses and worm segments can't be teleported, swallowed or dragged.</li>
+      <li>Marks, charges and sigils only add a bonus: every art works on a plain target.</li>
+    </ul>
+
+    <h2 id="domains">Domain Expansion</h2>
+    <p>Press <kbd>C</kbd> to open your technique's Domain once it unlocks (usually at level 18; each technique's page says when). Each Domain has its own name and sure-hit, so details vary. The defaults are below.</p>
+    <ul>
+      <li><b>Cost and size:</b> 20 CE, a 1-second channel, a 45-tile radius, 60 seconds.</li>
+      <li><b>Trapped:</b> hostile foes inside when it opens can't leave the circle.</li>
+      <li><b>Sure-hit:</b> fires on everything trapped as it opens, then every 3 seconds. It always lands; only its extra effects are reduced on bosses.</li>
+      <li><b>Inside your own Domain</b> your technique hits 25% harder, rising to 60% with refinement.</li>
+      <li><b>Barrier:</b> a red block wall with 3 × your max life + 10 × your CE power + your refinement in hit points. Enemy shots that hit it wear it down. The first big hit cracks it, and a second within 6 seconds breaks it.</li>
+      <li><b>Burnout:</b> when any Domain ends, your technique locks for 60 seconds (shorter with refinement).</li>
+    </ul>
+    <h3>Awakening early</h3>
+    <p>Your Domain can awaken before its level if you survive at least half of a Solar Eclipse and are alive when it ends, or if you reach wave 10 of a Pumpkin Moon or Frost Moon.</p>
+    <h3>Refinement</h3>
+    <p>Refinement points grow from every sure-hit that lands, strong foes killed inside, bosses, beating rival Domains, and a little daily training from the book. Ranks at 100, 250, 500, 750 and 1000 make your Domain faster to raise, harder-hitting, longer-lasting, wider and quicker to recover from.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Points</th><th>Rank</th><th>What changes</th></tr></thead>
+      <tbody>
+        <tr><td>below 100</td><td>Unrefined</td><td>Raised in 1 s; hits inside +25%</td></tr>
+        <tr><td>100</td><td>Steady</td><td>Raised in 0.75 s; barrier 10% tougher; hits inside +30%</td></tr>
+        <tr><td>250</td><td>Practiced</td><td>Raised in 0.5 s; lasts at least 90 s; hits inside +40%</td></tr>
+        <tr><td>500</td><td>Refined</td><td>Lasts at least 120 s; Burnout at most 30 s; 15% wider</td></tr>
+        <tr><td>750</td><td>Masterful</td><td>Raised in 0.25 s; hits inside +50%; Burnout at most 20 s</td></tr>
+        <tr><td>1000</td><td>Perfected</td><td>Raised instantly; lasts at least 180 s; hits inside +60%; 30% wider; Burnout 12 s</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Simple Domain</h3>
+    <p><kbd>J</kbd> raises a Simple Domain for 3 CE: 10 seconds where you stand. It halves hostile sure-hits and stops their extra effects. You learn it by beating a Goblin Army, or by clearing an Old One's Army tier for the first time (or from the Simple Domain feat).</p>
+    <h3>Clashes</h3>
+    <p>When two players' Domains meet, refinement decides. A gap of 100 points or more collapses the weaker Domain and burns its owner out. A smaller gap suppresses sure-hits where they overlap. Open Domains batter closed barriers. The winner gains 100 refinement, once per rival.</p>
+
+    <h2 id="blackflash">Black Flash and the Zone</h2>
+    <ul>
+      <li>Only a <b>critical melee or physical hit</b> can become a Black Flash, and rarely: a 1% chance, plus 1% per Zone stage. A Black Flash triples the hit.</li>
+      <li>A Black Flash puts you in <b>the Zone</b> for 25 seconds, and each further one refreshes it and climbs a stage, up to 10.</li>
+      <li>Each Zone stage, and standing in your own Domain, adds a stack of <b>+20% potential</b>: damage, attack speed, movement, defense, knockback and CE recovery, plus 2% crit, and arts cost less.</li>
+      <li>A Black Flash also restores CE equal to your mastery bonus, at most once every 6 seconds.</li>
+    </ul>
+
+    <h2 id="rct">Reverse Cursed Technique</h2>
+    <ul>
+      <li>You don't start with RCT (unless your class grants it, or the setting is on). It can awaken if you survive at or below 10% life for 5 seconds: a 25% chance each time, announced in chat.</li>
+      <li>Press <kbd>G</kbd> to spend CE healing yourself, up to your CE power at a time, from a reserve that refills on a long rest. The cooldown is 3 seconds. Pressing it within half a second of taking a hit skips the cooldown (once every 6 seconds).</li>
+      <li>RCT can't restore CE, revive you, or end Burnout.</li>
+    </ul>
+
+    <h2 id="feats">Feats</h2>
+    <p>You get <b>one feat pick per level</b>, taken in the book. General feats work on their own once learned; none needs a key. Some need a level, a Domain or another feat first.</p>
+    <p><b>Technique feats</b> belong to your technique and are listed on its reference page. Their picks are separate from your level picks: one each for your first kill of The Destroyer, The Twins, Skeletron Prime and Duke Fishron, then one at Plantera, one at Golem, and the rest at the Lunatic Cultist. A technique feat can add an art to <kbd>F</kbd> or <kbd>Q</kbd>, never to a new key.</p>
+    <div id="featList"><p class="muted">Loading the general feats…</p></div>
+
+    <h2 id="scrolls">Blank Scrolls</h2>
+    <p>Ordinary enemies drop a Blank Scroll rarely (1 in 100), and every boss drops one. A scroll lets you change your technique, or your class, in the book. You can't change class while your Domain is open, and switching resets your class picks.</p>
+
+    <h2 id="mp">Multiplayer and PvP</h2>
+    <ul>
+      <li>Class, level, technique, refinement, Domains, summons and enemy statuses all sync between players.</li>
+      <li>With PvP on (and different teams or no team), technique damage to players is halved. Some arts also apply Held, Dazed, Sapped or Lulled.</li>
+      <li>Domains trap hostile players too, and hit them with their sure-hit.</li>
+    </ul>
+
+    <h2 id="settings">Settings</h2>
+    <p>Settings → Mod Configuration → Ritual Archive Settings. These are server-side in multiplayer.</p>
+    <ul>
+      <li><b>Sandbox mode:</b> level 20, endless CE, no Burnout, RCT known, refinement 1000, and free class and technique swaps. Turning it on resets each character to a fresh start, including Ten Shadows' tamed and fallen shikigami. Turning it off sets your level from this world's defeated bosses.</li>
+      <li><b>Level override:</b> 0 is off. A value of 1–20 forces your level, for testing.</li>
+      <li><b>Kinder shadows:</b> fallen Ten Shadows shikigami return after a long rest instead of dying for good.</li>
+      <li><b>RCT from the start:</b> every sorcerer knows Reverse Cursed Technique without the breakthrough.</li>
+    </ul>
+  </article>
+</div>
+
+<footer class="site-foot">Fan project: non-commercial, not affiliated with or endorsed by the rights holders of any referenced work.</footer>
+<script src="assets/describe.js"></script>
+<script src="assets/rules.js"></script>
+</body>
+</html>
