@@ -46,9 +46,11 @@
       if (t.shortcuts.key1) lines.push(`<div class="shortcut"><kbd>Q</kbd> also casts <b>${esc(t.shortcuts.key1)}</b></div>`);
       if (lines.length) h += `<h4>Shortcut keys · these stay in the cycle too</h4>` + lines.join("");
     }
-    if (t.keys && t.keys.length) {
+    // Technique Key 1 already shown as a shortcut isn't listed again.
+    const keys = (t.keys || []).map((k, i) => (i === 0 && t.shortcuts && t.shortcuts.key1 ? null : k));
+    if (keys.some(Boolean)) {
       const names = ["Q", "Y", "U", "P"];
-      h += `<h4>Technique keys</h4>` + t.keys.map((k, i) => k ? `<div class="shortcut"><kbd>${names[i]}</kbd> ${esc(k)}</div>` : "").join("");
+      h += `<h4>Technique keys</h4>` + keys.map((k, i) => k ? `<div class="shortcut"><kbd>${names[i]}</kbd> ${esc(k)}</div>` : "").join("");
     }
     if (t.other && t.other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + t.other.map((a) => artRow(a, t)).join("");
     if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t);
