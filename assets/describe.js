@@ -47,7 +47,9 @@
     const level = ctx.level, pb = profBonus(level), ce = ceMod(level);
     const scale = damageScale(level);
     const life = ctx.life / 100;
-    const namedMean = ((tech && tech.namedDie) || frameworkDie(level)) / 2 + 0.5;
+    // A die counts 80% of the way up its range in play, not its tabletop average (Common.Dice in the mod).
+    const die = (sides) => (sides <= 1 ? sides : 1 + (sides - 1) * 0.8);
+    const namedMean = die((tech && tech.namedDie) || frameworkDie(level));
     let t = src;
 
     t = rep(t, Chance, (m, g) => {
@@ -83,12 +85,11 @@
     }
     const flat = (v) => (v ? parseInt(v, 10) : 0);
 
-    t = rep(t, ParenDice, (m, g, i, input) => worth((parseInt(g.n, 10) * (parseInt(g.d, 10) + 1)) / 2, i, input));
-    t = rep(t, ParenExprDice, (m, g, i, input) => `(${g.e}) × ${worth((parseInt(g.d, 10) + 1) / 2, i, input)}`);
+    t = rep(t, ParenDice, (m, g, i, input) => worth(parseInt(g.n, 10) * die(parseInt(g.d, 10)), i, input));
+    t = rep(t, ParenExprDice, (m, g, i, input) => `(${g.e}) × ${worth(die(parseInt(g.d, 10)), i, input)}`);
     t = rep(t, Dice, (m, g, i, input) => {
       const n = g.n ? parseInt(g.n, 10) : 1;
-      const sides = parseInt(g.d, 10);
-      return worth((n * (sides + 1)) / 2 + flat(g.flat), i, input);
+      return worth(n * die(parseInt(g.d, 10)) + flat(g.flat), i, input);
     });
     t = rep(t, NamedDice, (m, g, i, input) => {
       const n = /^\d+$/.test(g.n || "") ? parseInt(g.n, 10) : 1;
