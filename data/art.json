@@ -609,6 +609,16 @@
    "surehit": "assets/domains/Construction_surehit.gif",
    "surehitAdditive": true
   },
+  "CursedCannon": {
+   "domain": "assets/domains/CursedCannon_domain.png",
+   "surehit": "assets/domains/CursedCannon_surehit.gif",
+   "surehitAdditive": true
+  },
+  "CursedSpeech": {
+   "domain": "assets/domains/CursedSpeech_domain.png",
+   "surehit": "assets/domains/CursedSpeech_surehit.gif",
+   "surehitAdditive": true
+  },
   "CursedSpiritManipulation": {
    "domain": "assets/domains/CursedSpiritManipulation_domain.png",
    "max": "assets/domains/CursedSpiritManipulation_max.gif",
@@ -635,6 +645,16 @@
    "surehit": "assets/domains/DisasterVerdure_surehit.gif",
    "surehitAdditive": false
   },
+  "HeartCatch": {
+   "domain": "assets/domains/HeartCatch_domain.png",
+   "surehit": "assets/domains/HeartCatch_surehit.gif",
+   "surehitAdditive": false
+  },
+  "IceFormation": {
+   "domain": "assets/domains/IceFormation_domain.png",
+   "surehit": "assets/domains/IceFormation_surehit.gif",
+   "surehitAdditive": false
+  },
   "IdleTransfiguration": {
    "domain": "assets/domains/IdleTransfiguration_domain.png",
    "max": "assets/domains/IdleTransfiguration_max.gif",
@@ -644,6 +664,11 @@
   },
   "Limitless": {
    "surehit": "assets/domains/Limitless_surehit.gif",
+   "surehitAdditive": true
+  },
+  "LoveRendezvous": {
+   "domain": "assets/domains/LoveRendezvous_domain.png",
+   "surehit": "assets/domains/LoveRendezvous_surehit.gif",
    "surehitAdditive": true
   },
   "PachinkoFever": {
