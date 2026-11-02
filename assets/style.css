@@ -190,6 +190,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .alien { margin: 0; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 10px 8px 8px;
   display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; min-height: 150px; }
 .alien img { image-rendering: pixelated; max-width: 100%; height: auto; cursor: pointer; }
+.alien img.hd { image-rendering: auto; }
 .alien img:focus-visible { outline: 2px solid var(--ce); outline-offset: 3px; border-radius: 4px; }
 .alien figcaption { display: flex; gap: 6px; align-items: baseline; font-size: 13.5px; }
 .alien .nm { font-weight: 600; }
