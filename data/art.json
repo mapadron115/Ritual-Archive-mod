@@ -624,6 +624,11 @@
    "surehit": "assets/domains/BoogieWoogie_surehit.gif",
    "surehitAdditive": true
   },
+  "CentipedeShroud": {
+   "domain": "assets/domains/CentipedeShroud_domain.png",
+   "surehit": "assets/domains/CentipedeShroud_surehit.gif",
+   "surehitAdditive": false
+  },
   "Construction": {
    "domain": "assets/domains/Construction_domain.png",
    "surehit": "assets/domains/Construction_surehit.gif",
@@ -633,6 +638,9 @@
    "domain": "assets/domains/CursedCannon_domain.png",
    "surehit": "assets/domains/CursedCannon_surehit.gif",
    "surehitAdditive": true
+  },
+  "CursedCircuitry": {
+   "domain": "assets/domains/CursedCircuitry_domain.png"
   },
   "CursedSpeech": {
    "domain": "assets/domains/CursedSpeech_domain.png",
@@ -644,6 +652,16 @@
    "max": "assets/domains/CursedSpiritManipulation_max.gif",
    "maxAdditive": true,
    "surehit": "assets/domains/CursedSpiritManipulation_surehit.gif",
+   "surehitAdditive": false
+  },
+  "CursedTransmutation": {
+   "domain": "assets/domains/CursedTransmutation_domain.png",
+   "surehit": "assets/domains/CursedTransmutation_surehit.gif",
+   "surehitAdditive": true
+  },
+  "DarkClaw": {
+   "domain": "assets/domains/DarkClaw_domain.png",
+   "surehit": "assets/domains/DarkClaw_surehit.gif",
    "surehitAdditive": false
   },
   "DeadlySentencing": {
