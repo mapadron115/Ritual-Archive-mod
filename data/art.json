@@ -696,10 +696,20 @@
    "surehit": "assets/domains/PuppetManipulation_surehit.gif",
    "surehitAdditive": false
   },
+  "Rot": {
+   "domain": "assets/domains/Rot_domain.png",
+   "surehit": "assets/domains/Rot_surehit.gif",
+   "surehitAdditive": false
+  },
   "ScarletBloom": {
    "domain": "assets/domains/ScarletBloom_domain.png",
    "surehit": "assets/domains/ScarletBloom_surehit.gif",
    "surehitAdditive": false
+  },
+  "Seance": {
+   "domain": "assets/domains/Seance_domain.png",
+   "surehit": "assets/domains/Seance_surehit.gif",
+   "surehitAdditive": true
   },
   "Shrine": {
    "surehit": "assets/domains/Shrine_surehit.gif",
@@ -715,10 +725,25 @@
    "surehit": "assets/domains/SoloForbiddenArea_surehit.gif",
    "surehitAdditive": true
   },
+  "StarRage": {
+   "domain": "assets/domains/StarRage_domain.png",
+   "surehit": "assets/domains/StarRage_surehit.gif",
+   "surehitAdditive": false
+  },
+  "StrawDollTechnique": {
+   "domain": "assets/domains/StrawDollTechnique_domain.png",
+   "surehit": "assets/domains/StrawDollTechnique_surehit.gif",
+   "surehitAdditive": false
+  },
   "TenShadowsTechnique": {
    "domain": "assets/domains/TenShadowsTechnique_domain.png",
    "surehit": "assets/domains/TenShadowsTechnique_surehit.gif",
    "surehitAdditive": false
+  },
+  "TripleCore": {
+   "domain": "assets/domains/TripleCore_domain.png",
+   "surehit": "assets/domains/TripleCore_surehit.gif",
+   "surehitAdditive": true
   },
   "VengefulSpiritManipulation": {
    "domain": "assets/domains/VengefulSpiritManipulation_domain.png",
