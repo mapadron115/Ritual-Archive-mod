@@ -584,6 +584,11 @@
   }
  ],
  "art": {
+  "AntigravitySystem": {
+   "domain": "assets/domains/AntigravitySystem_domain.png",
+   "surehit": "assets/domains/AntigravitySystem_surehit.gif",
+   "surehitAdditive": false
+  },
   "AuspiciousBeastSummon": {
    "domain": "assets/domains/AuspiciousBeastSummon_domain.png",
    "surehit": "assets/domains/AuspiciousBeastSummon_surehit.gif",
@@ -593,6 +598,16 @@
    "domain": "assets/domains/BlackBirdManipulation_domain.png",
    "surehit": "assets/domains/BlackBirdManipulation_surehit.gif",
    "surehitAdditive": false
+  },
+  "BlackBox": {
+   "domain": "assets/domains/BlackBox_domain.png",
+   "surehit": "assets/domains/BlackBox_surehit.gif",
+   "surehitAdditive": false
+  },
+  "BlazingCourage": {
+   "domain": "assets/domains/BlazingCourage_domain.png",
+   "surehit": "assets/domains/BlazingCourage_surehit.gif",
+   "surehitAdditive": true
   },
   "BloodManipulation": {
    "domain": "assets/domains/BloodManipulation_domain.png",
@@ -651,6 +666,11 @@
   "DisasterVerdure": {
    "domain": "assets/domains/DisasterVerdure_domain.png",
    "surehit": "assets/domains/DisasterVerdure_surehit.gif",
+   "surehitAdditive": false
+  },
+  "DisasterVermin": {
+   "domain": "assets/domains/DisasterVermin_domain.png",
+   "surehit": "assets/domains/DisasterVermin_surehit.gif",
    "surehitAdditive": false
   },
   "HeartCatch": {
