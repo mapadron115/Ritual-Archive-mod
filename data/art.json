@@ -671,10 +671,18 @@
    "surehit": "assets/domains/LoveRendezvous_surehit.gif",
    "surehitAdditive": true
   },
+  "MythicalBeastAmber": {
+   "domain": "assets/domains/MythicalBeastAmber_domain.png"
+  },
   "PachinkoFever": {
    "domain": "assets/domains/PachinkoFever_domain.png",
    "surehit": "assets/domains/PachinkoFever_surehit.gif",
    "surehitAdditive": false
+  },
+  "PrayerSong": {
+   "domain": "assets/domains/PrayerSong_domain.png",
+   "surehit": "assets/domains/PrayerSong_surehit.gif",
+   "surehitAdditive": true
   },
   "ProjectionSorcery": {
    "domain": "assets/domains/ProjectionSorcery_domain.png",
