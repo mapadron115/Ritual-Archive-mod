@@ -176,8 +176,29 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .roster .meta { font: 500 12px var(--mono); color: var(--muted); margin-left: 8px; }
 .roster .tx { font-size: 15px; color: var(--ink); }
 .roster .gift { font-size: 14px; color: var(--muted); margin-top: 2px; }
+/* The artist's animated art (data/art.json). Pixel art stays crisp; effects sit on a dark stage in both themes so
+   additive (light) art can glow, its black blended away. */
+.fx-stage { display: inline-flex; align-items: center; justify-content: center; background: #0d0b14; border-radius: 8px;
+  padding: 8px; isolation: isolate; vertical-align: middle; }
+.fx-stage .fx { image-rendering: pixelated; display: block; max-width: 100%; height: auto; }
+.fx-stage .fx.additive { mix-blend-mode: screen; }
+.fx-stage.max-fx { margin: 6px 0 4px; }
+.domain-art { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
+.domain-art .backdrop { width: 220px; max-width: 100%; height: auto; image-rendering: pixelated; border-radius: 50%; }
+.domain-art .sure { min-width: 96px; min-height: 96px; }
+.aliens { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+.alien { margin: 0; background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 10px 8px 8px;
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; min-height: 150px; }
+.alien img { image-rendering: pixelated; max-width: 100%; max-height: 200px; width: auto; height: auto; cursor: pointer; }
+.alien img:focus-visible { outline: 2px solid var(--ce); outline-offset: 3px; border-radius: 4px; }
+.alien figcaption { display: flex; gap: 6px; align-items: baseline; font-size: 13.5px; }
+.alien .nm { font-weight: 600; }
+.alien .lv { font: 500 11.5px var(--mono); color: var(--muted); }
+.alien.locked { opacity: .45; }
 @media (max-width: 560px) {
   .roster .shadow { grid-template-columns: 1fr; }
+  .aliens { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+  .domain-art .backdrop { width: 160px; }
   .roster .pic { justify-content: flex-start; }
 }
 .link-here { font-size: 13px; }

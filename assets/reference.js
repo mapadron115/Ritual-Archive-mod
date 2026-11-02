@@ -7,6 +7,25 @@
 
   const state = { q: "", collection: "", role: "", level: 20, life: 400, domainOnly: false };
   let techniques = [];
+  // The artist's animated art (data/art.json, from docs/tools/site-art.py): aliens, and Domain/Maximum art by key.
+  let artData = { aliens: [], art: {} };
+  const keyOf = (t) => (t.file || "").split("/").pop().replace(/\.cs$/, "");
+  const artOf = (t) => artData.art[keyOf(t)] || {};
+
+  // An animated effect on a small dark stage (in either theme), crisp pixels; additive art (drawn on black) is blended
+  // as light, so its black falls away.
+  function fx(src, additive, alt, cls) {
+    return src ? `<span class="fx-stage${cls ? " " + cls : ""}"><img class="fx${additive ? " additive" : ""}" src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></span>` : "";
+  }
+
+  // One Codon Archive alien: its idle loop, and a showreel of every move while hovered or tapped.
+  function alienCard(a) {
+    const locked = a.level > state.level;
+    return `<figure class="alien${locked ? " locked" : ""}">
+      <img src="${esc(a.idle)}" data-idle="${esc(a.idle)}" data-reel="${esc(a.reel)}" alt="${esc(a.name)}" loading="lazy"
+        style="max-width:${a.w}px" tabindex="0" title="Hover or tap to see its moves">
+      <figcaption><span class="nm">${esc(a.name)}</span><span class="lv">L${esc(a.level)}</span></figcaption></figure>`;
+  }
 
   const store = {
     get(k, d) { try { const v = localStorage.getItem("ra-ref-" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -67,9 +86,12 @@
       h += `<h4>Technique keys</h4>` + keys.map((k, i) => k ? `<div class="shortcut"><kbd>${names[i]}</kbd> ${esc(k)}</div>` : "").join("");
     }
     if (t.other && t.other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + t.other.map((a) => artRow(a, t)).join("");
-    if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t);
+    const art = artOf(t);
+    if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t) + fx(art.max, art.maxAdditive, t.maximum.name, "max-fx");
     if (t.passives.length) h += `<h4>Passives</h4>` + t.passives.map((f) => featureRow(f, t)).join("");
     if (t.roster) h += `<h4>The shadows</h4><div class="roster">` + t.roster.map((s) => shadowRow(s, t)).join("") + `</div>`;
+    if (t.id === "e243" && artData.aliens.length)
+      h += `<h4>The aliens · hover or tap one to see its moves</h4><div class="aliens">` + artData.aliens.map(alienCard).join("") + `</div>`;
     if (t.domain) {
       const d = t.domain;
       const interval = d.sureHitSeconds || 3;
@@ -79,7 +101,11 @@
         `${Math.round(d.durationSeconds || 60)} s`, d.nonlethal ? "harms no one" : `sure-hit every ${interval} s`,
       ];
       const locked = d.level > state.level;
-      h += `<h4>Domain Expansion <kbd>C</kbd></h4><div class="domain-box${locked ? " locked" : ""}">
+      const scene = art.domain || art.surehit
+        ? `<div class="domain-art">${art.domain ? `<img class="backdrop" src="${esc(art.domain)}" alt="${esc(d.name)}" loading="lazy">` : ""}
+            ${fx(art.surehit, art.surehitAdditive, "sure-hit", "sure")}</div>`
+        : "";
+      h += `<h4>Domain Expansion <kbd>C</kbd></h4><div class="domain-box${locked ? " locked" : ""}">${scene}
         <div class="nm">${esc(d.name || "Domain")}</div><div class="facts">${esc(facts.join(" · "))}</div>
         ${d.sureHit ? `<div>${esc(Describe.domain(d.sureHit, t, interval, ctx()))}</div>` : ""}</div>`;
     }
@@ -102,7 +128,19 @@
     return el;
   }
 
-  function fill(el, t) { el.querySelector(".tech-body").innerHTML = body(t); }
+  function fill(el, t) {
+    el.querySelector(".tech-body").innerHTML = body(t);
+    // Aliens play their showreel while hovered (or after a tap on touch screens), then go back to idling.
+    for (const img of el.querySelectorAll(".alien img")) {
+      const reel = () => { if (img.src.indexOf(img.dataset.reel) < 0) img.src = img.dataset.reel; };
+      const idle = () => { img.src = img.dataset.idle; };
+      img.addEventListener("mouseenter", reel);
+      img.addEventListener("mouseleave", idle);
+      img.addEventListener("focus", reel);
+      img.addEventListener("blur", idle);
+      img.addEventListener("click", () => (img.src.indexOf(img.dataset.reel) < 0 ? reel() : idle()));
+    }
+  }
 
   function haystack(t) {
     const parts = [t.name, t.franchise, t.collection, t.role, t.summary];
@@ -163,6 +201,7 @@
       return;
     }
     techniques = data.techniques;
+    try { artData = await (await fetch("data/art.json")).json(); } catch (e) { /* the page works without art */ }
     const list = $("#list");
     const frag = document.createDocumentFragment();
     for (const t of techniques) {
