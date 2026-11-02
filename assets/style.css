@@ -168,6 +168,18 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .domain-box .facts { font: 500 12.5px var(--mono); color: var(--muted); margin: 4px 0 6px; }
 .domain-box.locked { opacity: .6; }
 .shortcut { font-size: 14px; margin: 4px 0; }
+.roster .shadow { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 4px 16px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.roster .shadow:first-child { border-top: 0; }
+.roster .pic { display: flex; align-items: flex-end; justify-content: center; min-height: 64px; }
+.roster .pic img { image-rendering: pixelated; max-width: 150px; height: auto; }
+.roster .nm { font-weight: 600; }
+.roster .meta { font: 500 12px var(--mono); color: var(--muted); margin-left: 8px; }
+.roster .tx { font-size: 15px; color: var(--ink); }
+.roster .gift { font-size: 14px; color: var(--muted); margin-top: 2px; }
+@media (max-width: 560px) {
+  .roster .shadow { grid-template-columns: 1fr; }
+  .roster .pic { justify-content: flex-start; }
+}
 .link-here { font-size: 13px; }
 .empty { padding: 40px 0; color: var(--muted); }
 

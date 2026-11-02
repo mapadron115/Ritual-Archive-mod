@@ -36,6 +36,20 @@
       <div><span class="nm">${esc(f.name)}</span></div><div class="tx">${say(f.text, t)}</div></div>`;
   }
 
+  // One of Ten Shadows' shadows, its sprite beside it at a whole-number scale (crisp pixels, up to about 120 px tall).
+  const MOVES = { Walker: "on foot", Hopper: "leaps", Flyer: "flies", Burrower: "burrows", Swarm: "a swarm", Phaser: "incorporeal" };
+  function shadowRow(s, t) {
+    const k = s.sprite ? Math.max(1, Math.floor(120 / Math.max(s.h, s.w / 1.3))) : 1;
+    const img = s.sprite
+      ? `<img src="${esc(s.sprite)}" width="${s.w * k}" height="${s.h * k}" alt="${esc(s.name)}" loading="lazy">`
+      : "";
+    const meta = [s.ce + " CE", MOVES[s.body] || s.body].join(" · ");
+    return `<div class="shadow"><div class="pic">${img}</div>
+      <div><div><span class="nm">${esc(s.name)}</span><span class="meta">${esc(meta)}</span></div>
+      <div class="tx">${say(s.role, t)}</div>
+      <div class="tx gift"><b>Shadow Wearing:</b> ${say(s.wear, t)}</div></div></div>`;
+  }
+
   function body(t) {
     let h = "";
     h += `<h4>Arts · cast key, switch with <kbd>V</kbd></h4>` + t.arts.map((a) => artRow(a, t)).join("");
@@ -55,6 +69,7 @@
     if (t.other && t.other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + t.other.map((a) => artRow(a, t)).join("");
     if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t);
     if (t.passives.length) h += `<h4>Passives</h4>` + t.passives.map((f) => featureRow(f, t)).join("");
+    if (t.roster) h += `<h4>The shadows</h4><div class="roster">` + t.roster.map((s) => shadowRow(s, t)).join("") + `</div>`;
     if (t.domain) {
       const d = t.domain;
       const interval = d.sureHitSeconds || 3;
@@ -94,6 +109,7 @@
     for (const a of [...t.arts, t.quick, t.maximum, ...t.other].filter(Boolean)) parts.push(a.name, a.text);
     for (const f of [...t.passives, ...t.feats]) parts.push(f.name, f.text);
     if (t.domain) parts.push(t.domain.name, t.domain.sureHit);
+    for (const s of t.roster || []) parts.push(s.name, s.role, s.wear);
     return parts.join(" ").toLowerCase();
   }
 
