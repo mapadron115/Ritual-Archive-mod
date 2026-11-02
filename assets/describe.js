@@ -49,7 +49,9 @@
     const life = ctx.life / 100;
     // A die counts 80% of the way up its range in play, not its tabletop average (Common.Dice in the mod).
     const die = (sides) => (sides <= 1 ? sides : 1 + (sides - 1) * 0.8);
-    const namedMean = die((tech && tech.namedDie) || frameworkDie(level));
+    // A technique whose named die grows with level (Codon Archive's Omni Die: Balance.AlienGrowth) prices it grown.
+    const growth = tech && tech.dieGrowth ? 1 + tech.dieGrowth * (Math.min(20, Math.max(1, level)) - 1) : 1;
+    const namedMean = die((tech && tech.namedDie) || frameworkDie(level)) * growth;
     let t = src;
 
     t = rep(t, Chance, (m, g) => {
