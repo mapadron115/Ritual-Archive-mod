@@ -691,6 +691,21 @@
    "surehit": "assets/domains/DisasterVermin_surehit.gif",
    "surehitAdditive": false
   },
+  "DragonVein": {
+   "domain": "assets/domains/DragonVein_domain.png",
+   "surehit": "assets/domains/DragonVein_surehit.gif",
+   "surehitAdditive": true
+  },
+  "EarthManipulation": {
+   "domain": "assets/domains/EarthManipulation_domain.png",
+   "surehit": "assets/domains/EarthManipulation_surehit.gif",
+   "surehitAdditive": false
+  },
+  "EightHeads": {
+   "domain": "assets/domains/EightHeads_domain.png",
+   "surehit": "assets/domains/EightHeads_surehit.gif",
+   "surehitAdditive": false
+  },
   "HeartCatch": {
    "domain": "assets/domains/HeartCatch_domain.png",
    "surehit": "assets/domains/HeartCatch_surehit.gif",
