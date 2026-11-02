@@ -599,6 +599,11 @@
    "surehit": "assets/domains/BloodManipulation_surehit.gif",
    "surehitAdditive": false
   },
+  "BloodTechniques": {
+   "domain": "assets/domains/BloodTechniques_domain.png",
+   "surehit": "assets/domains/BloodTechniques_surehit.gif",
+   "surehitAdditive": false
+  },
   "BoogieWoogie": {
    "domain": "assets/domains/BoogieWoogie_domain.png",
    "surehit": "assets/domains/BoogieWoogie_surehit.gif",
@@ -634,6 +639,9 @@
    "domain": "assets/domains/DisasterFlames_domain.png",
    "surehit": "assets/domains/DisasterFlames_surehit.gif",
    "surehitAdditive": true
+  },
+  "DisasterStorms": {
+   "domain": "assets/domains/DisasterStorms_domain.png"
   },
   "DisasterTides": {
    "domain": "assets/domains/DisasterTides_domain.png",
