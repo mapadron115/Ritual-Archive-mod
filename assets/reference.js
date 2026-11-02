@@ -18,12 +18,15 @@
     return src ? `<span class="fx-stage${cls ? " " + cls : ""}"><img class="fx${additive ? " additive" : ""}" src="${esc(src)}" alt="${esc(alt)}" loading="lazy"></span>` : "";
   }
 
-  // One Codon Archive alien: its idle loop, and a showreel of every move while hovered or tapped.
+  // One Codon Archive alien: its idle loop, and a showreel of every move while hovered or tapped. Drawn at the largest
+  // whole-number scale that fits a 260-px box, so the pixels stay crisp (the card can still shrink it on a narrow screen).
+  const ALIEN_BOX = 260;
   function alienCard(a) {
     const locked = a.level > state.level;
+    const k = Math.max(1, Math.floor(ALIEN_BOX / Math.max(a.w, a.h)));
     return `<figure class="alien${locked ? " locked" : ""}">
       <img src="${esc(a.idle)}" data-idle="${esc(a.idle)}" data-reel="${esc(a.reel)}" alt="${esc(a.name)}" loading="lazy"
-        style="max-width:${a.w}px" tabindex="0" title="Hover or tap to see its moves">
+        width="${a.w * k}" height="${a.h * k}" tabindex="0" title="Hover or tap to see its moves">
       <figcaption><span class="nm">${esc(a.name)}</span><span class="lv">L${esc(a.level)}</span></figcaption></figure>`;
   }
 
