@@ -691,6 +691,11 @@
    "surehit": "assets/domains/ProjectionSorcery_surehit.gif",
    "surehitAdditive": true
   },
+  "PuppetManipulation": {
+   "domain": "assets/domains/PuppetManipulation_domain.png",
+   "surehit": "assets/domains/PuppetManipulation_surehit.gif",
+   "surehitAdditive": false
+  },
   "ScarletBloom": {
    "domain": "assets/domains/ScarletBloom_domain.png",
    "surehit": "assets/domains/ScarletBloom_surehit.gif",
@@ -698,6 +703,16 @@
   },
   "Shrine": {
    "surehit": "assets/domains/Shrine_surehit.gif",
+   "surehitAdditive": true
+  },
+  "SkyManipulation": {
+   "domain": "assets/domains/SkyManipulation_domain.png",
+   "surehit": "assets/domains/SkyManipulation_surehit.gif",
+   "surehitAdditive": false
+  },
+  "SoloForbiddenArea": {
+   "domain": "assets/domains/SoloForbiddenArea_domain.png",
+   "surehit": "assets/domains/SoloForbiddenArea_surehit.gif",
    "surehitAdditive": true
   },
   "TenShadowsTechnique": {
