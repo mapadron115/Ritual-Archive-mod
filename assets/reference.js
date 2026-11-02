@@ -91,7 +91,8 @@
     }
     if (t.other && t.other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + t.other.map((a) => artRow(a, t)).join("");
     const art = artOf(t);
-    if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t) + fx(art.max, art.maxAdditive, t.maximum.name, "max-fx");
+    if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t) + fx(art.max, art.maxAdditive, t.maximum.name, "max-fx")
+      + (art.maxParts || []).map((p) => fx(p.src, p.additive, t.maximum.name + " (" + p.name + ")", "max-fx")).join("");
     if (t.passives.length) h += `<h4>Passives</h4>` + t.passives.map((f) => featureRow(f, t)).join("");
     if (t.roster) h += `<h4>The shadows</h4><div class="roster">` + t.roster.map((s) => shadowRow(s, t)).join("") + `</div>`;
     if (t.id === "e243" && artData.aliens.length)
