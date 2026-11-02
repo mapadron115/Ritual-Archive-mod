@@ -706,6 +706,41 @@
    "surehit": "assets/domains/EightHeads_surehit.gif",
    "surehitAdditive": false
   },
+  "EsotericArt": {
+   "domain": "assets/domains/EsotericArt_domain.png",
+   "surehit": "assets/domains/EsotericArt_surehit.gif",
+   "surehitAdditive": false
+  },
+  "ExplosiveFlesh": {
+   "domain": "assets/domains/ExplosiveFlesh_domain.png",
+   "surehit": "assets/domains/ExplosiveFlesh_surehit.gif",
+   "surehitAdditive": true
+  },
+  "FaJin": {
+   "domain": "assets/domains/FaJin_domain.png",
+   "surehit": "assets/domains/FaJin_surehit.gif",
+   "surehitAdditive": true
+  },
+  "FacelessGod": {
+   "domain": "assets/domains/FacelessGod_domain.png",
+   "surehit": "assets/domains/FacelessGod_surehit.gif",
+   "surehitAdditive": true
+  },
+  "Fate": {
+   "domain": "assets/domains/Fate_domain.png",
+   "surehit": "assets/domains/Fate_surehit.gif",
+   "surehitAdditive": true
+  },
+  "GWarstaff": {
+   "domain": "assets/domains/GWarstaff_domain.png",
+   "surehit": "assets/domains/GWarstaff_surehit.gif",
+   "surehitAdditive": false
+  },
+  "GoldenHour": {
+   "domain": "assets/domains/GoldenHour_domain.png",
+   "surehit": "assets/domains/GoldenHour_surehit.gif",
+   "surehitAdditive": true
+  },
   "HeartCatch": {
    "domain": "assets/domains/HeartCatch_domain.png",
    "surehit": "assets/domains/HeartCatch_surehit.gif",
