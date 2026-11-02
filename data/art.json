@@ -4,10 +4,10 @@
    "sheet": "Diamondhead",
    "name": "Diamondhead",
    "level": 1,
-   "idle": "assets/aliens/Diamondhead_idle.gif",
-   "reel": "assets/aliens/Diamondhead_reel.gif",
-   "w": 248,
-   "h": 216,
+   "idle": "assets/aliens/Diamondhead_idle.webp",
+   "reel": "assets/aliens/Diamondhead_reel.webp",
+   "w": 198,
+   "h": 173,
    "moves": [
     "Idle",
     "Run",
@@ -18,16 +18,17 @@
     "CrystalGrowth",
     "PrismGuard",
     "ShardVolley"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "FourArms",
    "name": "Four Arms",
    "level": 1,
-   "idle": "assets/aliens/FourArms_idle.gif",
-   "reel": "assets/aliens/FourArms_reel.gif",
-   "w": 226,
-   "h": 202,
+   "idle": "assets/aliens/FourArms_idle.webp",
+   "reel": "assets/aliens/FourArms_reel.webp",
+   "w": 360,
+   "h": 324,
    "moves": [
     "Idle",
     "Run",
@@ -38,16 +39,17 @@
     "FourfoldRush",
     "Groundbreaker",
     "Punch"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Ghostfreak",
    "name": "Ghostfreak",
    "level": 1,
-   "idle": "assets/aliens/Ghostfreak_idle.gif",
-   "reel": "assets/aliens/Ghostfreak_reel.gif",
-   "w": 256,
-   "h": 208,
+   "idle": "assets/aliens/Ghostfreak_idle.webp",
+   "reel": "assets/aliens/Ghostfreak_reel.webp",
+   "w": 203,
+   "h": 166,
    "moves": [
     "Hover",
     "Fly",
@@ -55,16 +57,17 @@
     "DreadVisage",
     "Possess",
     "Tentacle"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "GreyMatter",
    "name": "Grey Matter",
    "level": 1,
-   "idle": "assets/aliens/GreyMatter_idle.gif",
-   "reel": "assets/aliens/GreyMatter_reel.gif",
-   "w": 156,
-   "h": 132,
+   "idle": "assets/aliens/GreyMatter_idle.webp",
+   "reel": "assets/aliens/GreyMatter_reel.webp",
+   "w": 175,
+   "h": 144,
    "moves": [
     "Idle",
     "Run",
@@ -75,7 +78,8 @@
     "Duck",
     "Sabotage",
     "Strike"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Heatblast",
@@ -96,16 +100,17 @@
     "FlameStrike",
     "HeatSink",
     "PyroclasticBurst"
-   ]
+   ],
+   "hd": false
   },
   {
    "sheet": "Ripjaws",
    "name": "Ripjaws",
    "level": 1,
-   "idle": "assets/aliens/Ripjaws_idle.gif",
-   "reel": "assets/aliens/Ripjaws_reel.gif",
-   "w": 204,
-   "h": 225,
+   "idle": "assets/aliens/Ripjaws_idle.webp",
+   "reel": "assets/aliens/Ripjaws_reel.webp",
+   "w": 312,
+   "h": 182,
    "moves": [
     "Idle",
     "Run",
@@ -117,16 +122,17 @@
     "AbyssalVortex",
     "Bite",
     "RendingBite"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Stinkfly",
    "name": "Stinkfly",
    "level": 1,
-   "idle": "assets/aliens/Stinkfly_idle.gif",
-   "reel": "assets/aliens/Stinkfly_reel.gif",
-   "w": 268,
-   "h": 220,
+   "idle": "assets/aliens/Stinkfly_idle.webp",
+   "reel": "assets/aliens/Stinkfly_reel.webp",
+   "w": 214,
+   "h": 177,
    "moves": [
     "Hover",
     "Fly",
@@ -135,16 +141,17 @@
     "SlimeShot",
     "Stinger",
     "ToxicGas"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Upgrade",
    "name": "Upgrade",
    "level": 1,
-   "idle": "assets/aliens/Upgrade_idle.gif",
-   "reel": "assets/aliens/Upgrade_reel.gif",
-   "w": 268,
-   "h": 240,
+   "idle": "assets/aliens/Upgrade_idle.webp",
+   "reel": "assets/aliens/Upgrade_reel.webp",
+   "w": 217,
+   "h": 191,
    "moves": [
     "Idle",
     "Run",
@@ -156,7 +163,8 @@
     "Overclock",
     "PlasmaEye",
     "SystemRewrite"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Wildmutt",
@@ -175,16 +183,17 @@
     "Bite",
     "Claw",
     "Pounce"
-   ]
+   ],
+   "hd": false
   },
   {
    "sheet": "XLR8",
    "name": "XLR8",
    "level": 1,
-   "idle": "assets/aliens/XLR8_idle.gif",
-   "reel": "assets/aliens/XLR8_reel.gif",
-   "w": 234,
-   "h": 204,
+   "idle": "assets/aliens/XLR8_idle.webp",
+   "reel": "assets/aliens/XLR8_reel.webp",
+   "w": 346,
+   "h": 177,
    "moves": [
     "Idle",
     "Run",
@@ -196,16 +205,17 @@
     "CentripetalCyclone",
     "SoloBallgame",
     "VelocityClaw"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Cannonbolt",
    "name": "Cannonbolt",
    "level": 3,
-   "idle": "assets/aliens/Cannonbolt_idle.gif",
-   "reel": "assets/aliens/Cannonbolt_reel.gif",
-   "w": 236,
-   "h": 202,
+   "idle": "assets/aliens/Cannonbolt_idle.webp",
+   "reel": "assets/aliens/Cannonbolt_reel.webp",
+   "w": 380,
+   "h": 324,
    "moves": [
     "Idle",
     "Run",
@@ -217,16 +227,17 @@
     "Roll",
     "ShellGuard",
     "Uncurl"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Wildvine",
    "name": "Wildvine",
    "level": 3,
-   "idle": "assets/aliens/Wildvine_idle.gif",
-   "reel": "assets/aliens/Wildvine_reel.gif",
-   "w": 252,
-   "h": 232,
+   "idle": "assets/aliens/Wildvine_idle.webp",
+   "reel": "assets/aliens/Wildvine_reel.webp",
+   "w": 205,
+   "h": 186,
    "moves": [
     "Idle",
     "Run",
@@ -237,16 +248,17 @@
     "SporePod",
     "VineHold",
     "VineLash"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Blitzwolfer",
    "name": "Blitzwolfer",
    "level": 6,
-   "idle": "assets/aliens/Blitzwolfer_idle.gif",
-   "reel": "assets/aliens/Blitzwolfer_reel.gif",
-   "w": 280,
-   "h": 240,
+   "idle": "assets/aliens/Blitzwolfer_idle.webp",
+   "reel": "assets/aliens/Blitzwolfer_reel.webp",
+   "w": 224,
+   "h": 192,
    "moves": [
     "Idle",
     "Run",
@@ -257,16 +269,17 @@
     "Claw",
     "LunarPounce",
     "SonicHowl"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Frankenstrike",
    "name": "Frankenstrike",
    "level": 6,
-   "idle": "assets/aliens/Frankenstrike_idle.gif",
-   "reel": "assets/aliens/Frankenstrike_reel.gif",
-   "w": 282,
-   "h": 246,
+   "idle": "assets/aliens/Frankenstrike_idle.webp",
+   "reel": "assets/aliens/Frankenstrike_reel.webp",
+   "w": 315,
+   "h": 262,
    "moves": [
     "Idle",
     "Run",
@@ -278,16 +291,17 @@
     "Grasp",
     "Pulse",
     "Punch"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Goop",
    "name": "Goop",
    "level": 6,
-   "idle": "assets/aliens/Goop_idle.gif",
-   "reel": "assets/aliens/Goop_reel.gif",
-   "w": 260,
-   "h": 224,
+   "idle": "assets/aliens/Goop_idle.webp",
+   "reel": "assets/aliens/Goop_reel.webp",
+   "w": 206,
+   "h": 180,
    "moves": [
     "Idle",
     "Run",
@@ -298,16 +312,17 @@
     "Engulf",
     "Puddle",
     "Reform"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Humungousaur",
    "name": "Humungousaur",
    "level": 6,
-   "idle": "assets/aliens/Humungousaur_idle.gif",
-   "reel": "assets/aliens/Humungousaur_reel.gif",
-   "w": 226,
-   "h": 206,
+   "idle": "assets/aliens/Humungousaur_idle.webp",
+   "reel": "assets/aliens/Humungousaur_reel.webp",
+   "w": 358,
+   "h": 331,
    "moves": [
     "Idle",
     "Run",
@@ -318,16 +333,17 @@
     "Punch",
     "SeismicStomp",
     "TailSwipe"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Jetray",
    "name": "Jetray",
    "level": 6,
-   "idle": "assets/aliens/Jetray_idle.gif",
-   "reel": "assets/aliens/Jetray_reel.gif",
-   "w": 258,
-   "h": 207,
+   "idle": "assets/aliens/Jetray_idle.webp",
+   "reel": "assets/aliens/Jetray_reel.webp",
+   "w": 276,
+   "h": 225,
    "moves": [
     "Hover",
     "Fly",
@@ -336,16 +352,17 @@
     "Neuroshock",
     "Stinger",
     "SupersonicRam"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "SnareOh",
    "name": "Snare-Oh",
    "level": 6,
-   "idle": "assets/aliens/SnareOh_idle.gif",
-   "reel": "assets/aliens/SnareOh_reel.gif",
-   "w": 260,
-   "h": 240,
+   "idle": "assets/aliens/SnareOh_idle.webp",
+   "reel": "assets/aliens/SnareOh_reel.webp",
+   "w": 209,
+   "h": 192,
    "moves": [
     "Idle",
     "Run",
@@ -357,16 +374,17 @@
     "Bulwark",
     "Reweave",
     "ScatterReform"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Swampfire",
    "name": "Swampfire",
    "level": 6,
-   "idle": "assets/aliens/Swampfire_idle.gif",
-   "reel": "assets/aliens/Swampfire_reel.gif",
-   "w": 256,
-   "h": 244,
+   "idle": "assets/aliens/Swampfire_idle.webp",
+   "reel": "assets/aliens/Swampfire_reel.webp",
+   "w": 206,
+   "h": 195,
    "moves": [
     "Idle",
     "Run",
@@ -378,16 +396,17 @@
     "FlameHand",
     "Regrow",
     "SeedPods"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Brainstorm",
    "name": "Brainstorm",
    "level": 11,
-   "idle": "assets/aliens/Brainstorm_idle.gif",
-   "reel": "assets/aliens/Brainstorm_reel.gif",
-   "w": 279,
-   "h": 225,
+   "idle": "assets/aliens/Brainstorm_idle.webp",
+   "reel": "assets/aliens/Brainstorm_reel.webp",
+   "w": 299,
+   "h": 241,
    "moves": [
     "Idle",
     "Run",
@@ -398,16 +417,17 @@
     "Pinch",
     "Telekinesis",
     "ThoughtShield"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Chromastone",
    "name": "Chromastone",
    "level": 11,
-   "idle": "assets/aliens/Chromastone_idle.gif",
-   "reel": "assets/aliens/Chromastone_reel.gif",
-   "w": 180,
-   "h": 225,
+   "idle": "assets/aliens/Chromastone_idle.webp",
+   "reel": "assets/aliens/Chromastone_reel.webp",
+   "w": 192,
+   "h": 209,
    "moves": [
     "Idle",
     "Run",
@@ -419,16 +439,17 @@
     "Absorb",
     "CrystalShield",
     "UVBeam"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Ditto",
    "name": "Ditto",
    "level": 11,
-   "idle": "assets/aliens/Ditto_idle.gif",
-   "reel": "assets/aliens/Ditto_reel.gif",
-   "w": 282,
-   "h": 240,
+   "idle": "assets/aliens/Ditto_idle.webp",
+   "reel": "assets/aliens/Ditto_reel.webp",
+   "w": 166,
+   "h": 140,
    "moves": [
     "Idle",
     "Run",
@@ -439,16 +460,17 @@
     "Recall",
     "Split",
     "Strike"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "EchoEcho",
    "name": "Echo Echo",
    "level": 11,
-   "idle": "assets/aliens/EchoEcho_idle.gif",
-   "reel": "assets/aliens/EchoEcho_reel.gif",
-   "w": 258,
-   "h": 240,
+   "idle": "assets/aliens/EchoEcho_idle.webp",
+   "reel": "assets/aliens/EchoEcho_reel.webp",
+   "w": 148,
+   "h": 141,
    "moves": [
     "Idle",
     "Run",
@@ -458,16 +480,17 @@
     "Duplicate",
     "Scream",
     "SonicWall"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "EyeGuy",
    "name": "Eye Guy",
    "level": 11,
-   "idle": "assets/aliens/EyeGuy_idle.gif",
-   "reel": "assets/aliens/EyeGuy_reel.gif",
-   "w": 240,
-   "h": 212,
+   "idle": "assets/aliens/EyeGuy_idle.webp",
+   "reel": "assets/aliens/EyeGuy_reel.webp",
+   "w": 191,
+   "h": 170,
    "moves": [
     "Idle",
     "Run",
@@ -477,16 +500,17 @@
     "Barrage",
     "ChestEye",
     "OpticRay"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "SpiderMonkey",
    "name": "SpiderMonkey",
    "level": 11,
-   "idle": "assets/aliens/SpiderMonkey_idle.gif",
-   "reel": "assets/aliens/SpiderMonkey_reel.gif",
-   "w": 234,
-   "h": 237,
+   "idle": "assets/aliens/SpiderMonkey_idle.webp",
+   "reel": "assets/aliens/SpiderMonkey_reel.webp",
+   "w": 249,
+   "h": 252,
    "moves": [
     "Idle",
     "Run",
@@ -498,16 +522,17 @@
     "Flurry",
     "WebSling",
     "WebSwing"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Upchuck",
    "name": "Upchuck",
    "level": 11,
-   "idle": "assets/aliens/Upchuck_idle.gif",
-   "reel": "assets/aliens/Upchuck_reel.gif",
-   "w": 245,
-   "h": 225,
+   "idle": "assets/aliens/Upchuck_idle.webp",
+   "reel": "assets/aliens/Upchuck_reel.webp",
+   "w": 172,
+   "h": 157,
    "moves": [
     "Idle",
     "IdleFull",
@@ -519,16 +544,17 @@
     "Gulp",
     "Ingest",
     "Loogie"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "BigChill",
    "name": "Big Chill",
    "level": 13,
-   "idle": "assets/aliens/BigChill_idle.gif",
-   "reel": "assets/aliens/BigChill_reel.gif",
-   "w": 204,
-   "h": 228,
+   "idle": "assets/aliens/BigChill_idle.webp",
+   "reel": "assets/aliens/BigChill_reel.webp",
+   "w": 217,
+   "h": 200,
    "moves": [
     "Idle",
     "Run",
@@ -540,16 +566,17 @@
     "FreezingBreath",
     "IceClaws",
     "PhaseFreeze"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "Rath",
    "name": "Rath",
    "level": 13,
-   "idle": "assets/aliens/Rath_idle.gif",
-   "reel": "assets/aliens/Rath_reel.gif",
-   "w": 231,
-   "h": 207,
+   "idle": "assets/aliens/Rath_idle.webp",
+   "reel": "assets/aliens/Rath_reel.webp",
+   "w": 248,
+   "h": 221,
    "moves": [
     "Idle",
     "Run",
@@ -559,16 +586,17 @@
     "Charge",
     "RageClaws",
     "Taunt"
-   ]
+   ],
+   "hd": true
   },
   {
    "sheet": "WayBig",
    "name": "Way Big",
    "level": 18,
-   "idle": "assets/aliens/WayBig_idle.gif",
-   "reel": "assets/aliens/WayBig_reel.gif",
-   "w": 300,
-   "h": 393,
+   "idle": "assets/aliens/WayBig_idle.webp",
+   "reel": "assets/aliens/WayBig_reel.webp",
+   "w": 334,
+   "h": 439,
    "moves": [
     "Idle",
     "Run",
@@ -580,7 +608,8 @@
     "Stride",
     "Throw",
     "TitanFist"
-   ]
+   ],
+   "hd": true
   }
  ],
  "art": {
@@ -624,9 +653,22 @@
    "surehit": "assets/domains/BoogieWoogie_surehit.gif",
    "surehitAdditive": true
   },
+  "BungeeGum": {
+   "domain": "assets/domains/BungeeGum_domain.png",
+   "surehit": "assets/domains/BungeeGum_surehit.gif",
+   "surehitAdditive": false
+  },
   "CentipedeShroud": {
    "domain": "assets/domains/CentipedeShroud_domain.png",
    "surehit": "assets/domains/CentipedeShroud_surehit.gif",
+   "surehitAdditive": false
+  },
+  "ChronologicalReserve": {
+   "domain": "assets/domains/ChronologicalReserve_domain.png"
+  },
+  "Clone": {
+   "domain": "assets/domains/Clone_domain.png",
+   "surehit": "assets/domains/Clone_surehit.gif",
    "surehitAdditive": false
   },
   "Construction": {
@@ -667,6 +709,14 @@
   "DeadlySentencing": {
    "surehit": "assets/domains/DeadlySentencing_surehit.gif",
    "surehitAdditive": false
+  },
+  "DeepPurple": {
+   "domain": "assets/domains/DeepPurple_domain.png"
+  },
+  "DirectiveArrows": {
+   "domain": "assets/domains/DirectiveArrows_domain.png",
+   "surehit": "assets/domains/DirectiveArrows_surehit.gif",
+   "surehitAdditive": true
   },
   "DisasterFlames": {
    "domain": "assets/domains/DisasterFlames_domain.png",
@@ -741,6 +791,21 @@
    "surehit": "assets/domains/GoldenHour_surehit.gif",
    "surehitAdditive": true
   },
+  "GuanyinBodhisattva": {
+   "domain": "assets/domains/GuanyinBodhisattva_domain.png",
+   "surehit": "assets/domains/GuanyinBodhisattva_surehit.gif",
+   "surehitAdditive": false
+  },
+  "HairManipulation": {
+   "domain": "assets/domains/HairManipulation_domain.png",
+   "surehit": "assets/domains/HairManipulation_surehit.gif",
+   "surehitAdditive": false
+  },
+  "Hakoware": {
+   "domain": "assets/domains/Hakoware_domain.png",
+   "surehit": "assets/domains/Hakoware_surehit.gif",
+   "surehitAdditive": false
+  },
   "HeartCatch": {
    "domain": "assets/domains/HeartCatch_domain.png",
    "surehit": "assets/domains/HeartCatch_surehit.gif",
@@ -758,8 +823,23 @@
    "surehit": "assets/domains/IdleTransfiguration_surehit.gif",
    "surehitAdditive": false
   },
+  "IllusiveMirage": {
+   "domain": "assets/domains/IllusiveMirage_domain.png",
+   "surehit": "assets/domains/IllusiveMirage_surehit.gif",
+   "surehitAdditive": true
+  },
+  "Inverse": {
+   "domain": "assets/domains/Inverse_domain.png",
+   "surehit": "assets/domains/Inverse_surehit.gif",
+   "surehitAdditive": true
+  },
   "Limitless": {
    "surehit": "assets/domains/Limitless_surehit.gif",
+   "surehitAdditive": true
+  },
+  "LivingCircuit": {
+   "domain": "assets/domains/LivingCircuit_domain.png",
+   "surehit": "assets/domains/LivingCircuit_surehit.gif",
    "surehitAdditive": true
   },
   "LoveRendezvous": {
@@ -767,13 +847,34 @@
    "surehit": "assets/domains/LoveRendezvous_surehit.gif",
    "surehitAdditive": true
   },
+  "MissileFist": {
+   "domain": "assets/domains/MissileFist_domain.png",
+   "surehit": "assets/domains/MissileFist_surehit.gif",
+   "surehitAdditive": false
+  },
+  "MoonDregs": {
+   "domain": "assets/domains/MoonDregs_domain.png"
+  },
   "MythicalBeastAmber": {
    "domain": "assets/domains/MythicalBeastAmber_domain.png"
+  },
+  "Overhaul": {
+   "domain": "assets/domains/Overhaul_domain.png"
   },
   "PachinkoFever": {
    "domain": "assets/domains/PachinkoFever_domain.png",
    "surehit": "assets/domains/PachinkoFever_surehit.gif",
    "surehitAdditive": false
+  },
+  "PainKiller": {
+   "domain": "assets/domains/PainKiller_domain.png",
+   "surehit": "assets/domains/PainKiller_surehit.gif",
+   "surehitAdditive": true
+  },
+  "ParalyzingGaze": {
+   "domain": "assets/domains/ParalyzingGaze_domain.png",
+   "surehit": "assets/domains/ParalyzingGaze_surehit.gif",
+   "surehitAdditive": true
   },
   "PrayerSong": {
    "domain": "assets/domains/PrayerSong_domain.png",
@@ -791,6 +892,21 @@
    "domain": "assets/domains/PuppetManipulation_domain.png",
    "surehit": "assets/domains/PuppetManipulation_surehit.gif",
    "surehitAdditive": false
+  },
+  "Regalia": {
+   "domain": "assets/domains/Regalia_domain.png",
+   "surehit": "assets/domains/Regalia_surehit.gif",
+   "surehitAdditive": false
+  },
+  "RipperCyclotron": {
+   "domain": "assets/domains/RipperCyclotron_domain.png",
+   "surehit": "assets/domains/RipperCyclotron_surehit.gif",
+   "surehitAdditive": true
+  },
+  "Rockstar": {
+   "domain": "assets/domains/Rockstar_domain.png",
+   "surehit": "assets/domains/Rockstar_surehit.gif",
+   "surehitAdditive": true
   },
   "Rot": {
    "domain": "assets/domains/Rot_domain.png",
@@ -831,9 +947,19 @@
    "surehit": "assets/domains/StrawDollTechnique_surehit.gif",
    "surehitAdditive": false
   },
+  "Sunshine": {
+   "domain": "assets/domains/Sunshine_domain.png",
+   "surehit": "assets/domains/Sunshine_surehit.gif",
+   "surehitAdditive": true
+  },
   "TenShadowsTechnique": {
    "domain": "assets/domains/TenShadowsTechnique_domain.png",
    "surehit": "assets/domains/TenShadowsTechnique_surehit.gif",
+   "surehitAdditive": false
+  },
+  "ToolManipulation": {
+   "domain": "assets/domains/ToolManipulation_domain.png",
+   "surehit": "assets/domains/ToolManipulation_surehit.gif",
    "surehitAdditive": false
   },
   "TripleCore": {
@@ -841,9 +967,19 @@
    "surehit": "assets/domains/TripleCore_surehit.gif",
    "surehitAdditive": true
   },
+  "VectorAuthority": {
+   "domain": "assets/domains/VectorAuthority_domain.png",
+   "surehit": "assets/domains/VectorAuthority_surehit.gif",
+   "surehitAdditive": true
+  },
   "VengefulSpiritManipulation": {
    "domain": "assets/domains/VengefulSpiritManipulation_domain.png",
    "surehit": "assets/domains/VengefulSpiritManipulation_surehit.gif",
+   "surehitAdditive": true
+  },
+  "WarGodsHousehold": {
+   "domain": "assets/domains/WarGodsHousehold_domain.png",
+   "surehit": "assets/domains/WarGodsHousehold_surehit.gif",
    "surehitAdditive": true
   }
  }
