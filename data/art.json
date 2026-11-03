@@ -1693,7 +1693,14 @@
   "ScarletBloom": {
    "domain": "assets/domains/ScarletBloom_domain.png",
    "surehit": "assets/domains/ScarletBloom_surehit.gif",
-   "surehitAdditive": false
+   "surehitAdditive": false,
+   "forms": [
+    {
+     "name": "Wings",
+     "src": "assets/domains/ScarletBloom_wings.gif",
+     "additive": false
+    }
+   ]
   },
   "SchriftX": {
    "max": "assets/domains/SchriftX_max.gif",

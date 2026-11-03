@@ -99,6 +99,9 @@
     const art = artOf(t);
     if (maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(maximum, t) + fx(art.max, art.maxAdditive, maximum.name, "max-fx")
       + (art.maxParts || []).map((p) => fx(p.src, p.additive, maximum.name + " (" + p.name + ")", "max-fx")).join("");
+    // A form's own look outside the Maximum (Scarlet Bloom's wings).
+    if (art.forms && art.forms.length)
+      h += `<h4>Forms</h4>` + art.forms.map((p) => fx(p.src, p.additive, t.name + " (" + p.name + ")", "max-fx")).join("");
     if (t.passives.length) h += `<h4>Passives</h4>` + t.passives.map((f) => featureRow(f, t)).join("");
     if (t.roster) h += `<h4>The shadows</h4><div class="roster">` + t.roster.map((s) => shadowRow(s, t)).join("") + `</div>`;
     if (t.id === "e243" && artData.aliens.length)
