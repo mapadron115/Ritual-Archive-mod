@@ -9,7 +9,6 @@
    "w": 198,
    "h": 173,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -30,7 +29,6 @@
    "w": 360,
    "h": 324,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -51,7 +49,6 @@
    "w": 203,
    "h": 166,
    "moves": [
-    "Hover",
     "Fly",
     "Hurt",
     "DreadVisage",
@@ -69,7 +66,6 @@
    "w": 175,
    "h": 144,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -85,12 +81,11 @@
    "sheet": "Heatblast",
    "name": "Heatblast",
    "level": 1,
-   "idle": "assets/aliens/Heatblast_idle.gif",
-   "reel": "assets/aliens/Heatblast_reel.gif",
-   "w": 231,
-   "h": 231,
+   "idle": "assets/aliens/Heatblast_idle.webp",
+   "reel": "assets/aliens/Heatblast_reel.webp",
+   "w": 202,
+   "h": 233,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -101,7 +96,7 @@
     "HeatSink",
     "PyroclasticBurst"
    ],
-   "hd": false
+   "hd": true
   },
   {
    "sheet": "Ripjaws",
@@ -112,7 +107,6 @@
    "w": 312,
    "h": 182,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -132,9 +126,8 @@
    "idle": "assets/aliens/Stinkfly_idle.webp",
    "reel": "assets/aliens/Stinkfly_reel.webp",
    "w": 214,
-   "h": 177,
+   "h": 249,
    "moves": [
-    "Hover",
     "Fly",
     "Hurt",
     "SlimeLine",
@@ -153,7 +146,6 @@
    "w": 217,
    "h": 191,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -170,12 +162,11 @@
    "sheet": "Wildmutt",
    "name": "Wildmutt",
    "level": 1,
-   "idle": "assets/aliens/Wildmutt_idle.gif",
-   "reel": "assets/aliens/Wildmutt_reel.gif",
-   "w": 356,
-   "h": 236,
+   "idle": "assets/aliens/Wildmutt_idle.webp",
+   "reel": "assets/aliens/Wildmutt_reel.webp",
+   "w": 260,
+   "h": 169,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -184,7 +175,7 @@
     "Claw",
     "Pounce"
    ],
-   "hd": false
+   "hd": true
   },
   {
    "sheet": "XLR8",
@@ -195,7 +186,6 @@
    "w": 346,
    "h": 177,
    "moves": [
-    "Idle",
     "Run",
     "Sprint",
     "Jump",
@@ -217,7 +207,6 @@
    "w": 380,
    "h": 324,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -239,7 +228,6 @@
    "w": 205,
    "h": 186,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -260,7 +248,6 @@
    "w": 224,
    "h": 192,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -281,7 +268,6 @@
    "w": 315,
    "h": 262,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -300,10 +286,9 @@
    "level": 6,
    "idle": "assets/aliens/Goop_idle.webp",
    "reel": "assets/aliens/Goop_reel.webp",
-   "w": 206,
-   "h": 180,
+   "w": 235,
+   "h": 265,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -324,7 +309,6 @@
    "w": 358,
    "h": 331,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -345,7 +329,6 @@
    "w": 276,
    "h": 225,
    "moves": [
-    "Hover",
     "Fly",
     "Hurt",
     "Afterburner",
@@ -364,7 +347,6 @@
    "w": 209,
    "h": 192,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -386,7 +368,6 @@
    "w": 206,
    "h": 195,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -408,7 +389,6 @@
    "w": 299,
    "h": 241,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -429,7 +409,6 @@
    "w": 192,
    "h": 209,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -451,7 +430,6 @@
    "w": 166,
    "h": 140,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -472,7 +450,6 @@
    "w": 148,
    "h": 141,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -492,7 +469,6 @@
    "w": 191,
    "h": 170,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -512,7 +488,6 @@
    "w": 249,
    "h": 252,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -534,7 +509,6 @@
    "w": 172,
    "h": 157,
    "moves": [
-    "Idle",
     "IdleFull",
     "Run",
     "Jump",
@@ -556,7 +530,6 @@
    "w": 217,
    "h": 200,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -578,7 +551,6 @@
    "w": 248,
    "h": 221,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -598,7 +570,6 @@
    "w": 334,
    "h": 439,
    "moves": [
-    "Idle",
     "Run",
     "Jump",
     "Fall",
@@ -613,12 +584,60 @@
   }
  ],
  "art": {
+  "AmazonChampion": {
+   "maxParts": [
+    {
+     "name": "Beam",
+     "src": "assets/domains/AmazonChampion_maxbeam.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamEnd",
+     "src": "assets/domains/AmazonChampion_maxbeamend.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamStart",
+     "src": "assets/domains/AmazonChampion_maxbeamstart.gif",
+     "additive": false
+    },
+    {
+     "name": "Bracelets",
+     "src": "assets/domains/AmazonChampion_maxbracelets.gif",
+     "additive": false
+    }
+   ]
+  },
   "AntigravitySystem": {
    "domain": "assets/domains/AntigravitySystem_domain.png",
    "max": "assets/domains/AntigravitySystem_max.gif",
    "maxAdditive": false,
    "surehit": "assets/domains/AntigravitySystem_surehit.gif",
    "surehitAdditive": false
+  },
+  "AtlanteanKingship": {
+   "maxParts": [
+    {
+     "name": "Beam",
+     "src": "assets/domains/AtlanteanKingship_maxbeam.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamEnd",
+     "src": "assets/domains/AtlanteanKingship_maxbeamend.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamStart",
+     "src": "assets/domains/AtlanteanKingship_maxbeamstart.gif",
+     "additive": false
+    },
+    {
+     "name": "Foam",
+     "src": "assets/domains/AtlanteanKingship_maxfoam.gif",
+     "additive": false
+    }
+   ]
   },
   "AuspiciousBeastSummon": {
    "domain": "assets/domains/AuspiciousBeastSummon_domain.png",
@@ -706,6 +725,10 @@
    "maxAdditive": false,
    "surehit": "assets/domains/Clone_surehit.gif",
    "surehitAdditive": false
+  },
+  "ConduitMimic": {
+   "max": "assets/domains/ConduitMimic_max.gif",
+   "maxAdditive": false
   },
   "Construction": {
    "domain": "assets/domains/Construction_domain.png",
@@ -871,7 +894,22 @@
    "surehitAdditive": false
   },
   "ElderFuthark": {
+   "domain": "assets/domains/ElderFuthark_domain.png",
    "surehit": "assets/domains/ElderFuthark_surehit.gif",
+   "surehitAdditive": false
+  },
+  "EmeraldWill": {
+   "domain": "assets/domains/EmeraldWill_domain.png",
+   "maxParts": [
+    {
+     "name": "Slam",
+     "src": "assets/domains/EmeraldWill_maxslam.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/EmeraldWill_max.gif",
+   "maxAdditive": false,
+   "surehit": "assets/domains/EmeraldWill_surehit.gif",
    "surehitAdditive": false
   },
   "EmperorsChains": {
@@ -933,6 +971,7 @@
    "surehitAdditive": false
   },
   "FaultlineLedger": {
+   "domain": "assets/domains/FaultlineLedger_domain.png",
    "surehit": "assets/domains/FaultlineLedger_surehit.gif",
    "surehitAdditive": false
   },
@@ -1008,7 +1047,9 @@
    "surehitAdditive": false
   },
   "Hourglass": {
-   "domain": "assets/domains/Hourglass_domain.png"
+   "domain": "assets/domains/Hourglass_domain.png",
+   "surehit": "assets/domains/Hourglass_surehit.gif",
+   "surehitAdditive": true
   },
   "IceFormation": {
    "domain": "assets/domains/IceFormation_domain.png",
@@ -1036,6 +1077,9 @@
    "surehit": "assets/domains/Inverse_surehit.gif",
    "surehitAdditive": true
   },
+  "IronSorcery": {
+   "domain": "assets/domains/IronSorcery_domain.png"
+  },
   "JudgementCut": {
    "maxParts": [
     {
@@ -1056,12 +1100,18 @@
    ]
   },
   "KineticImbuement": {
+   "domain": "assets/domains/KineticImbuement_domain.png",
    "surehit": "assets/domains/KineticImbuement_surehit.gif",
    "surehitAdditive": false
   },
   "KineticTransmission": {
+   "domain": "assets/domains/KineticTransmission_domain.png",
    "surehit": "assets/domains/KineticTransmission_surehit.gif",
    "surehitAdditive": false
+  },
+  "Kryptonian": {
+   "max": "assets/domains/Kryptonian_max.gif",
+   "maxAdditive": false
   },
   "LastRites": {
    "domain": "assets/domains/LastRites_domain.png",
@@ -1077,6 +1127,15 @@
    "surehit": "assets/domains/LivingCircuit_surehit.gif",
    "surehitAdditive": true
   },
+  "LivingLightning": {
+   "maxParts": [
+    {
+     "name": "Charge",
+     "src": "assets/domains/LivingLightning_maxcharge.gif",
+     "additive": false
+    }
+   ]
+  },
   "LoveRendezvous": {
    "domain": "assets/domains/LoveRendezvous_domain.png",
    "max": "assets/domains/LoveRendezvous_max.gif",
@@ -1085,8 +1144,20 @@
    "surehitAdditive": true
   },
   "MagneticManipulation": {
+   "domain": "assets/domains/MagneticManipulation_domain.png",
    "surehit": "assets/domains/MagneticManipulation_surehit.gif",
    "surehitAdditive": false
+  },
+  "Martian": {
+   "maxParts": [
+    {
+     "name": "Link",
+     "src": "assets/domains/Martian_maxlink.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/Martian_max.gif",
+   "maxAdditive": false
   },
   "MissileFist": {
    "domain": "assets/domains/MissileFist_domain.png",
@@ -1117,6 +1188,7 @@
    "maxAdditive": true
   },
   "NineKnots": {
+   "domain": "assets/domains/NineKnots_domain.png",
    "surehit": "assets/domains/NineKnots_surehit.gif",
    "surehitAdditive": false
   },
@@ -1129,6 +1201,10 @@
     }
    ],
    "max": "assets/domains/OneWingedCalamity_max.gif",
+   "maxAdditive": false
+  },
+  "Osmotheque": {
+   "max": "assets/domains/Osmotheque_max.gif",
    "maxAdditive": false
   },
   "Overhaul": {
@@ -1148,6 +1224,10 @@
    "domain": "assets/domains/PainPacker_domain.png",
    "surehit": "assets/domains/PainPacker_surehit.gif",
    "surehitAdditive": true
+  },
+  "Palimpsest": {
+   "max": "assets/domains/Palimpsest_max.gif",
+   "maxAdditive": false
   },
   "ParalyzingGaze": {
    "domain": "assets/domains/ParalyzingGaze_domain.png",
@@ -1286,6 +1366,7 @@
    "surehitAdditive": false
   },
   "Siphon": {
+   "domain": "assets/domains/Siphon_domain.png",
    "surehit": "assets/domains/Siphon_surehit.gif",
    "surehitAdditive": false
   },
@@ -1360,6 +1441,11 @@
    "surehit": "assets/domains/TenShadowsTechnique_surehit.gif",
    "surehitAdditive": false
   },
+  "TerritorialInfluence": {
+   "domain": "assets/domains/TerritorialInfluence_domain.png",
+   "surehit": "assets/domains/TerritorialInfluence_surehit.gif",
+   "surehitAdditive": false
+  },
   "TheFiftyTwo": {
    "domain": "assets/domains/TheFiftyTwo_domain.png",
    "surehit": "assets/domains/TheFiftyTwo_surehit.gif",
@@ -1396,6 +1482,27 @@
   },
   "TwinMoonArmament": {
    "max": "assets/domains/TwinMoonArmament_max.gif",
+   "maxAdditive": false
+  },
+  "UmbralWitchcraft": {
+   "maxParts": [
+    {
+     "name": "Gomorrah",
+     "src": "assets/domains/UmbralWitchcraft_maxgomorrah.gif",
+     "additive": false
+    },
+    {
+     "name": "Madama",
+     "src": "assets/domains/UmbralWitchcraft_maxmadama.gif",
+     "additive": false
+    },
+    {
+     "name": "Phantasmaraneae",
+     "src": "assets/domains/UmbralWitchcraft_maxphantasmaraneae.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/UmbralWitchcraft_max.gif",
    "maxAdditive": false
   },
   "VectorAuthority": {
