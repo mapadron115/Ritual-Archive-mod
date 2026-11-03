@@ -982,6 +982,8 @@
   },
   "EpicKingship": {
    "domain": "assets/domains/EpicKingship_domain.png",
+   "max": "assets/domains/EpicKingship_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/EpicKingship_surehit.gif",
    "surehitAdditive": false
   },
@@ -1071,6 +1073,11 @@
    "max": "assets/domains/GammaRage_max.gif",
    "maxAdditive": false
   },
+  "GateOfTheProtectiveColossus": {
+   "domain": "assets/domains/GateOfTheProtectiveColossus_domain.png",
+   "surehit": "assets/domains/GateOfTheProtectiveColossus_surehit.gif",
+   "surehitAdditive": false
+  },
   "GildedMan": {
    "domain": "assets/domains/GildedMan_domain.png",
    "surehit": "assets/domains/GildedMan_surehit.gif",
@@ -1126,6 +1133,11 @@
    "surehit": "assets/domains/Hakoware_surehit.gif",
    "surehitAdditive": false
   },
+  "HeadlessRoad": {
+   "domain": "assets/domains/HeadlessRoad_domain.png",
+   "surehit": "assets/domains/HeadlessRoad_surehit.gif",
+   "surehitAdditive": false
+  },
   "HeartCatch": {
    "domain": "assets/domains/HeartCatch_domain.png",
    "max": "assets/domains/HeartCatch_max.gif",
@@ -1151,6 +1163,11 @@
    "domain": "assets/domains/Hourglass_domain.png",
    "surehit": "assets/domains/Hourglass_surehit.gif",
    "surehitAdditive": true
+  },
+  "HouseOfBats": {
+   "domain": "assets/domains/HouseOfBats_domain.png",
+   "surehit": "assets/domains/HouseOfBats_surehit.gif",
+   "surehitAdditive": false
   },
   "HuHuHu": {
    "domain": "assets/domains/HuHuHu_domain.png",
@@ -1541,6 +1558,11 @@
    "max": "assets/domains/SevenSeals_max.gif",
    "maxAdditive": false
   },
+  "SevenTerrors": {
+   "domain": "assets/domains/SevenTerrors_domain.png",
+   "surehit": "assets/domains/SevenTerrors_surehit.gif",
+   "surehitAdditive": false
+  },
   "ShadowEminence": {
    "domain": "assets/domains/ShadowEminence_domain.png",
    "surehit": "assets/domains/ShadowEminence_surehit.gif",
@@ -1579,6 +1601,11 @@
   "SkillHunter": {
    "domain": "assets/domains/SkillHunter_domain.png",
    "surehit": "assets/domains/SkillHunter_surehit.gif",
+   "surehitAdditive": false
+  },
+  "SkinlessBlight": {
+   "domain": "assets/domains/SkinlessBlight_domain.png",
+   "surehit": "assets/domains/SkinlessBlight_surehit.gif",
    "surehitAdditive": false
   },
   "SkyManipulation": {
@@ -1726,6 +1753,11 @@
    "max": "assets/domains/TwinMoonArmament_max.gif",
    "maxAdditive": false
   },
+  "TwoHeavens": {
+   "domain": "assets/domains/TwoHeavens_domain.png",
+   "surehit": "assets/domains/TwoHeavens_surehit.gif",
+   "surehitAdditive": false
+  },
   "TwoThirdsDivine": {
    "domain": "assets/domains/TwoThirdsDivine_domain.png",
    "surehit": "assets/domains/TwoThirdsDivine_surehit.gif",
@@ -1751,6 +1783,11 @@
    ],
    "max": "assets/domains/UmbralWitchcraft_max.gif",
    "maxAdditive": false
+  },
+  "UnwrittenTrail": {
+   "domain": "assets/domains/UnwrittenTrail_domain.png",
+   "surehit": "assets/domains/UnwrittenTrail_surehit.gif",
+   "surehitAdditive": false
   },
   "Vairocana": {
    "domain": "assets/domains/Vairocana_domain.png",
@@ -1788,6 +1825,15 @@
   "WhiteSilence": {
    "domain": "assets/domains/WhiteSilence_domain.png",
    "surehit": "assets/domains/WhiteSilence_surehit.gif",
+   "surehitAdditive": false
+  },
+  "Wildspeaker": {
+   "max": "assets/domains/Wildspeaker_max.gif",
+   "maxAdditive": true
+  },
+  "WindBetweenHeavenAndEarth": {
+   "domain": "assets/domains/WindBetweenHeavenAndEarth_domain.png",
+   "surehit": "assets/domains/WindBetweenHeavenAndEarth_surehit.gif",
    "surehitAdditive": false
   },
   "WithManyVoices": {
