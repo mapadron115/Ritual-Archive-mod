@@ -1818,6 +1818,17 @@
    "max": "assets/domains/StyleDevil_max.gif",
    "maxAdditive": false
   },
+  "SunEaterWings": {
+   "maxParts": [
+    {
+     "name": "Hit",
+     "src": "assets/domains/SunEaterWings_maxhit.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/SunEaterWings_max.gif",
+   "maxAdditive": false
+  },
   "Sunshine": {
    "domain": "assets/domains/Sunshine_domain.png",
    "surehit": "assets/domains/Sunshine_surehit.gif",
