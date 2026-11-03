@@ -1445,6 +1445,10 @@
    "surehit": "assets/domains/MagneticManipulation_surehit.gif",
    "surehitAdditive": false
   },
+  "ManEatersBallistics": {
+   "max": "assets/domains/ManEatersBallistics_max.gif",
+   "maxAdditive": false
+  },
   "Martian": {
    "maxParts": [
     {
