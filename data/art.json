@@ -993,6 +993,10 @@
    "surehit": "assets/domains/EmeraldWill_surehit.gif",
    "surehitAdditive": false
   },
+  "Emeth": {
+   "max": "assets/domains/Emeth_max.gif",
+   "maxAdditive": false
+  },
   "EmpathicSorcery": {
    "maxParts": [
     {
@@ -1242,6 +1246,10 @@
    "surehit": "assets/domains/IllusiveMirage_surehit.gif",
    "surehitAdditive": true
   },
+  "InnerPeace": {
+   "max": "assets/domains/InnerPeace_max.gif",
+   "maxAdditive": false
+  },
   "Inverse": {
    "domain": "assets/domains/Inverse_domain.png",
    "max": "assets/domains/Inverse_max.gif",
@@ -1457,6 +1465,8 @@
   },
   "NightmareKing": {
    "domain": "assets/domains/NightmareKing_domain.png",
+   "max": "assets/domains/NightmareKing_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/NightmareKing_surehit.gif",
    "surehitAdditive": false
   },
@@ -1465,8 +1475,14 @@
    "surehit": "assets/domains/NineKnots_surehit.gif",
    "surehitAdditive": false
   },
+  "NineLives": {
+   "max": "assets/domains/NineLives_max.gif",
+   "maxAdditive": false
+  },
   "NineShadows": {
    "domain": "assets/domains/NineShadows_domain.png",
+   "max": "assets/domains/NineShadows_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/NineShadows_surehit.gif",
    "surehitAdditive": false
   },
@@ -1689,6 +1705,10 @@
    "maxAdditive": true,
    "surehit": "assets/domains/Siphon_surehit.gif",
    "surehitAdditive": false
+  },
+  "SistersRebellion": {
+   "max": "assets/domains/SistersRebellion_max.gif",
+   "maxAdditive": false
   },
   "SkillHunter": {
    "domain": "assets/domains/SkillHunter_domain.png",
