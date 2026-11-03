@@ -646,6 +646,10 @@
    "surehit": "assets/domains/AuspiciousBeastSummon_surehit.gif",
    "surehitAdditive": false
   },
+  "BackwardsMagic": {
+   "max": "assets/domains/BackwardsMagic_max.gif",
+   "maxAdditive": true
+  },
   "BlackBirdManipulation": {
    "domain": "assets/domains/BlackBirdManipulation_domain.png",
    "max": "assets/domains/BlackBirdManipulation_max.gif",
@@ -688,6 +692,10 @@
    "surehit": "assets/domains/BloodTechniques_surehit.gif",
    "surehitAdditive": false
   },
+  "Bloodlord": {
+   "max": "assets/domains/Bloodlord_max.gif",
+   "maxAdditive": true
+  },
   "BodyManipulation": {
    "max": "assets/domains/BodyManipulation_max.gif",
    "maxAdditive": false
@@ -703,6 +711,10 @@
    "domain": "assets/domains/BungeeGum_domain.png",
    "surehit": "assets/domains/BungeeGum_surehit.gif",
    "surehitAdditive": false
+  },
+  "Carnage": {
+   "max": "assets/domains/Carnage_max.gif",
+   "maxAdditive": false
   },
   "CentipedeShroud": {
    "domain": "assets/domains/CentipedeShroud_domain.png",
@@ -725,6 +737,10 @@
    "maxAdditive": false,
    "surehit": "assets/domains/Clone_surehit.gif",
    "surehitAdditive": false
+  },
+  "Compleation": {
+   "max": "assets/domains/Compleation_max.gif",
+   "maxAdditive": false
   },
   "ConduitMimic": {
    "max": "assets/domains/ConduitMimic_max.gif",
@@ -912,6 +928,17 @@
    "surehit": "assets/domains/EmeraldWill_surehit.gif",
    "surehitAdditive": false
   },
+  "EmpathicSorcery": {
+   "maxParts": [
+    {
+     "name": "Wave",
+     "src": "assets/domains/EmpathicSorcery_maxwave.gif",
+     "additive": true
+    }
+   ],
+   "max": "assets/domains/EmpathicSorcery_max.gif",
+   "maxAdditive": false
+  },
   "EmperorsChains": {
    "domain": "assets/domains/EmperorsChains_domain.png",
    "surehit": "assets/domains/EmperorsChains_surehit.gif",
@@ -1046,10 +1073,18 @@
    "surehit": "assets/domains/HideAndSeek_surehit.gif",
    "surehitAdditive": false
   },
+  "HiveEvolution": {
+   "max": "assets/domains/HiveEvolution_max.gif",
+   "maxAdditive": false
+  },
   "Hourglass": {
    "domain": "assets/domains/Hourglass_domain.png",
    "surehit": "assets/domains/Hourglass_surehit.gif",
    "surehitAdditive": true
+  },
+  "HumanTorch": {
+   "max": "assets/domains/HumanTorch_max.gif",
+   "maxAdditive": true
   },
   "IceFormation": {
    "domain": "assets/domains/IceFormation_domain.png",
@@ -1077,6 +1112,10 @@
    "surehit": "assets/domains/Inverse_surehit.gif",
    "surehitAdditive": true
   },
+  "InvisibleForce": {
+   "max": "assets/domains/InvisibleForce_max.gif",
+   "maxAdditive": true
+  },
   "IronSorcery": {
    "domain": "assets/domains/IronSorcery_domain.png"
   },
@@ -1101,11 +1140,22 @@
   },
   "KineticImbuement": {
    "domain": "assets/domains/KineticImbuement_domain.png",
+   "max": "assets/domains/KineticImbuement_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/KineticImbuement_surehit.gif",
    "surehitAdditive": false
   },
   "KineticTransmission": {
    "domain": "assets/domains/KineticTransmission_domain.png",
+   "maxParts": [
+    {
+     "name": "Sparks",
+     "src": "assets/domains/KineticTransmission_maxsparks.gif",
+     "additive": true
+    }
+   ],
+   "max": "assets/domains/KineticTransmission_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/KineticTransmission_surehit.gif",
    "surehitAdditive": false
   },
@@ -1158,6 +1208,10 @@
    ],
    "max": "assets/domains/Martian_max.gif",
    "maxAdditive": false
+  },
+  "MindSculptor": {
+   "max": "assets/domains/MindSculptor_max.gif",
+   "maxAdditive": true
   },
   "MissileFist": {
    "domain": "assets/domains/MissileFist_domain.png",
@@ -1292,6 +1346,10 @@
    "domain": "assets/domains/PuppetManipulation_domain.png",
    "surehit": "assets/domains/PuppetManipulation_surehit.gif",
    "surehitAdditive": false
+  },
+  "PyromanticSoul": {
+   "max": "assets/domains/PyromanticSoul_max.gif",
+   "maxAdditive": true
   },
   "RatioTechnique": {
    "max": "assets/domains/RatioTechnique_max.gif",
@@ -1428,12 +1486,20 @@
    "surehit": "assets/domains/Superposition_surehit.gif",
    "surehitAdditive": true
   },
+  "Symbiote": {
+   "max": "assets/domains/Symbiote_max.gif",
+   "maxAdditive": false
+  },
   "TechniqueExtermination": {
    "max": "assets/domains/TechniqueExtermination_max.gif",
    "maxAdditive": true
   },
   "Teleportation": {
    "max": "assets/domains/Teleportation_max.gif",
+   "maxAdditive": true
+  },
+  "TemporalArchmage": {
+   "max": "assets/domains/TemporalArchmage_max.gif",
    "maxAdditive": true
   },
   "TenShadowsTechnique": {
@@ -1448,6 +1514,8 @@
   },
   "TheFiftyTwo": {
    "domain": "assets/domains/TheFiftyTwo_domain.png",
+   "max": "assets/domains/TheFiftyTwo_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/TheFiftyTwo_surehit.gif",
    "surehitAdditive": false
   },
@@ -1537,6 +1605,10 @@
    "domain": "assets/domains/WithManyVoices_domain.png",
    "surehit": "assets/domains/WithManyVoices_surehit.gif",
    "surehitAdditive": true
+  },
+  "Worldwaker": {
+   "max": "assets/domains/Worldwaker_max.gif",
+   "maxAdditive": false
   }
  }
 }
