@@ -933,6 +933,11 @@
    "surehit": "assets/domains/EarthManipulation_surehit.gif",
    "surehitAdditive": false
   },
+  "EarthSpiderLoom": {
+   "domain": "assets/domains/EarthSpiderLoom_domain.png",
+   "surehit": "assets/domains/EarthSpiderLoom_surehit.gif",
+   "surehitAdditive": false
+  },
   "EightHeads": {
    "domain": "assets/domains/EightHeads_domain.png",
    "max": "assets/domains/EightHeads_max.gif",
@@ -973,6 +978,11 @@
   "EmperorsChains": {
    "domain": "assets/domains/EmperorsChains_domain.png",
    "surehit": "assets/domains/EmperorsChains_surehit.gif",
+   "surehitAdditive": false
+  },
+  "EpicKingship": {
+   "domain": "assets/domains/EpicKingship_domain.png",
+   "surehit": "assets/domains/EpicKingship_surehit.gif",
    "surehitAdditive": false
   },
   "EsotericArt": {
@@ -1033,6 +1043,11 @@
    "surehit": "assets/domains/FaultlineLedger_surehit.gif",
    "surehitAdditive": false
   },
+  "FirstEmperor": {
+   "domain": "assets/domains/FirstEmperor_domain.png",
+   "surehit": "assets/domains/FirstEmperor_surehit.gif",
+   "surehitAdditive": false
+  },
   "FishHook": {
    "domain": "assets/domains/FishHook_domain.png",
    "surehit": "assets/domains/FishHook_surehit.gif",
@@ -1056,6 +1071,11 @@
    "max": "assets/domains/GammaRage_max.gif",
    "maxAdditive": false
   },
+  "GildedMan": {
+   "domain": "assets/domains/GildedMan_domain.png",
+   "surehit": "assets/domains/GildedMan_surehit.gif",
+   "surehitAdditive": false
+  },
   "GoldenFault": {
    "max": "assets/domains/GoldenFault_max.gif",
    "maxAdditive": false
@@ -1077,6 +1097,11 @@
   "GorgonsRegard": {
    "domain": "assets/domains/GorgonsRegard_domain.png",
    "surehit": "assets/domains/GorgonsRegard_surehit.gif",
+   "surehitAdditive": false
+  },
+  "GraveMoundTenacity": {
+   "domain": "assets/domains/GraveMoundTenacity_domain.png",
+   "surehit": "assets/domains/GraveMoundTenacity_surehit.gif",
    "surehitAdditive": false
   },
   "GravitySovereignty": {
@@ -1225,6 +1250,11 @@
    "surehit": "assets/domains/LastRites_surehit.gif",
    "surehitAdditive": false
   },
+  "LibraryBurns": {
+   "domain": "assets/domains/LibraryBurns_domain.png",
+   "surehit": "assets/domains/LibraryBurns_surehit.gif",
+   "surehitAdditive": false
+  },
   "Limitless": {
    "surehit": "assets/domains/Limitless_surehit.gif",
    "surehitAdditive": true
@@ -1328,6 +1358,11 @@
   "NineKnots": {
    "domain": "assets/domains/NineKnots_domain.png",
    "surehit": "assets/domains/NineKnots_surehit.gif",
+   "surehitAdditive": false
+  },
+  "NineShadows": {
+   "domain": "assets/domains/NineShadows_domain.png",
+   "surehit": "assets/domains/NineShadows_surehit.gif",
    "surehitAdditive": false
   },
   "OneWingedCalamity": {
@@ -1492,6 +1527,11 @@
    "surehit": "assets/domains/Seance_surehit.gif",
    "surehitAdditive": true
   },
+  "SerpentAgainstTheDawn": {
+   "domain": "assets/domains/SerpentAgainstTheDawn_domain.png",
+   "surehit": "assets/domains/SerpentAgainstTheDawn_surehit.gif",
+   "surehitAdditive": false
+  },
   "SevenSacredCoils": {
    "domain": "assets/domains/SevenSacredCoils_domain.png",
    "surehit": "assets/domains/SevenSacredCoils_surehit.gif",
@@ -1568,6 +1608,11 @@
    "max": "assets/domains/StarlightSymphony_max.gif",
    "maxAdditive": false
   },
+  "StepPyramid": {
+   "domain": "assets/domains/StepPyramid_domain.png",
+   "surehit": "assets/domains/StepPyramid_surehit.gif",
+   "surehitAdditive": false
+  },
   "StrawDollTechnique": {
    "domain": "assets/domains/StrawDollTechnique_domain.png",
    "surehit": "assets/domains/StrawDollTechnique_surehit.gif",
@@ -1616,6 +1661,11 @@
   "TenShadowsTechnique": {
    "domain": "assets/domains/TenShadowsTechnique_domain.png",
    "surehit": "assets/domains/TenShadowsTechnique_surehit.gif",
+   "surehitAdditive": false
+  },
+  "TenkaFubu": {
+   "domain": "assets/domains/TenkaFubu_domain.png",
+   "surehit": "assets/domains/TenkaFubu_surehit.gif",
    "surehitAdditive": false
   },
   "TerritorialInfluence": {
@@ -1676,6 +1726,11 @@
    "max": "assets/domains/TwinMoonArmament_max.gif",
    "maxAdditive": false
   },
+  "TwoThirdsDivine": {
+   "domain": "assets/domains/TwoThirdsDivine_domain.png",
+   "surehit": "assets/domains/TwoThirdsDivine_surehit.gif",
+   "surehitAdditive": false
+  },
   "UmbralWitchcraft": {
    "maxParts": [
     {
@@ -1729,6 +1784,11 @@
    "maxAdditive": true,
    "surehit": "assets/domains/WarGodsHousehold_surehit.gif",
    "surehitAdditive": true
+  },
+  "WhiteSilence": {
+   "domain": "assets/domains/WhiteSilence_domain.png",
+   "surehit": "assets/domains/WhiteSilence_surehit.gif",
+   "surehitAdditive": false
   },
   "WithManyVoices": {
    "domain": "assets/domains/WithManyVoices_domain.png",
