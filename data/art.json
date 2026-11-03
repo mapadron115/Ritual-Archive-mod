@@ -1126,11 +1126,22 @@
   },
   "GateOfTheProtectiveColossus": {
    "domain": "assets/domains/GateOfTheProtectiveColossus_domain.png",
+   "maxParts": [
+    {
+     "name": "Hit",
+     "src": "assets/domains/GateOfTheProtectiveColossus_maxhit.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/GateOfTheProtectiveColossus_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/GateOfTheProtectiveColossus_surehit.gif",
    "surehitAdditive": false
   },
   "GildedMan": {
    "domain": "assets/domains/GildedMan_domain.png",
+   "max": "assets/domains/GildedMan_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/GildedMan_surehit.gif",
    "surehitAdditive": false
   },
