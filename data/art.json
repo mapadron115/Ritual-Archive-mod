@@ -757,6 +757,10 @@
    "surehit": "assets/domains/CentipedeShroud_surehit.gif",
    "surehitAdditive": false
   },
+  "ChimericNightCry": {
+   "max": "assets/domains/ChimericNightCry_max.gif",
+   "maxAdditive": false
+  },
   "ChivalricSiege": {
    "max": "assets/domains/ChivalricSiege_max.gif",
    "maxAdditive": false
@@ -813,6 +817,10 @@
    "domain": "assets/domains/CrazySlots_domain.png",
    "surehit": "assets/domains/CrazySlots_surehit.gif",
    "surehitAdditive": false
+  },
+  "CrimsonBath": {
+   "max": "assets/domains/CrimsonBath_max.gif",
+   "maxAdditive": true
   },
   "CursedCannon": {
    "domain": "assets/domains/CursedCannon_domain.png",
@@ -1671,6 +1679,17 @@
   "SchriftX": {
    "max": "assets/domains/SchriftX_max.gif",
    "maxAdditive": true
+  },
+  "ScourgeOfGod": {
+   "maxParts": [
+    {
+     "name": "Field",
+     "src": "assets/domains/ScourgeOfGod_maxfield.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/ScourgeOfGod_max.gif",
+   "maxAdditive": false
   },
   "Seance": {
    "domain": "assets/domains/Seance_domain.png",
