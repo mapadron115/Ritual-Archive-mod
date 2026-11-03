@@ -89,10 +89,14 @@
       const names = ["Q", "Y", "U", "P"];
       h += `<h4>Technique keys</h4>` + keys.map((k, i) => k ? `<div class="shortcut"><kbd>${names[i]}</kbd> ${esc(k)}</div>` : "").join("");
     }
-    if (t.other && t.other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + t.other.map((a) => artRow(a, t)).join("");
+    // A Maximum granted by a feat (Sky Manipulation's Hurricane) is extracted among the other arts; it's still the
+    // technique's Maximum, so it's shown under that heading with its art.
+    const maximum = t.maximum || (t.other || []).find((a) => /^Maximum: /.test(a.name));
+    const other = (t.other || []).filter((a) => a !== maximum);
+    if (other.length) h += `<h4>Other arts · from keys, forms and feats</h4>` + other.map((a) => artRow(a, t)).join("");
     const art = artOf(t);
-    if (t.maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(t.maximum, t) + fx(art.max, art.maxAdditive, t.maximum.name, "max-fx")
-      + (art.maxParts || []).map((p) => fx(p.src, p.additive, t.maximum.name + " (" + p.name + ")", "max-fx")).join("");
+    if (maximum) h += `<h4>Maximum <kbd>X</kbd></h4>` + artRow(maximum, t) + fx(art.max, art.maxAdditive, maximum.name, "max-fx")
+      + (art.maxParts || []).map((p) => fx(p.src, p.additive, maximum.name + " (" + p.name + ")", "max-fx")).join("");
     if (t.passives.length) h += `<h4>Passives</h4>` + t.passives.map((f) => featureRow(f, t)).join("");
     if (t.roster) h += `<h4>The shadows</h4><div class="roster">` + t.roster.map((s) => shadowRow(s, t)).join("") + `</div>`;
     if (t.id === "e243" && artData.aliens.length)
@@ -124,7 +128,8 @@
     el.className = "tech";
     el.id = t.id;
     if (t.accent) el.style.setProperty("--accent", t.accent);
-    const tags = [t.role, t.domain ? "Domain" : "", t.maximum ? "Maximum" : ""].filter(Boolean);
+    const featMax = (t.other || []).some((a) => /^Maximum: /.test(a.name));
+    const tags = [t.role, t.domain ? "Domain" : "", t.maximum || featMax ? "Maximum" : ""].filter(Boolean);
     el.innerHTML = `<summary><span class="swatch" aria-hidden="true"></span>
       <div><div class="name">${esc(t.name)}</div><div class="sub">${esc(t.franchise)} · ${esc(t.collection)} · ${esc(t.tier)}</div></div>
       <div class="tags">${tags.map((g) => `<span class="tag${g === "Domain" ? " dom" : g === "Maximum" ? " ce" : ""}">${esc(g)}</span>`).join("")}</div>
