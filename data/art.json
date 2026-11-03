@@ -668,6 +668,10 @@
    "max": "assets/domains/BlackFlameApostasy_max.gif",
    "maxAdditive": false
   },
+  "BlackFlashChaining": {
+   "max": "assets/domains/BlackFlashChaining_max.gif",
+   "maxAdditive": false
+  },
   "Blacklight": {
    "max": "assets/domains/Blacklight_max.gif",
    "maxAdditive": false
@@ -716,6 +720,10 @@
    "max": "assets/domains/Carnage_max.gif",
    "maxAdditive": false
   },
+  "Cavitation": {
+   "max": "assets/domains/Cavitation_max.gif",
+   "maxAdditive": true
+  },
   "CentipedeShroud": {
    "domain": "assets/domains/CentipedeShroud_domain.png",
    "surehit": "assets/domains/CentipedeShroud_surehit.gif",
@@ -740,6 +748,10 @@
   },
   "Compleation": {
    "max": "assets/domains/Compleation_max.gif",
+   "maxAdditive": false
+  },
+  "Compound": {
+   "max": "assets/domains/Compound_max.gif",
    "maxAdditive": false
   },
   "ConduitMimic": {
@@ -1016,6 +1028,10 @@
    "surehit": "assets/domains/GWarstaff_surehit.gif",
    "surehitAdditive": false
   },
+  "GammaRage": {
+   "max": "assets/domains/GammaRage_max.gif",
+   "maxAdditive": false
+  },
   "GoldenFault": {
    "max": "assets/domains/GoldenFault_max.gif",
    "maxAdditive": false
@@ -1225,6 +1241,17 @@
    "max": "assets/domains/MoonDregs_max.gif",
    "maxAdditive": false
   },
+  "Moonphase": {
+   "maxParts": [
+    {
+     "name": "Dark",
+     "src": "assets/domains/Moonphase_maxdark.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/Moonphase_max.gif",
+   "maxAdditive": false
+  },
   "MycelialTestament": {
    "maxParts": [
     {
@@ -1360,6 +1387,10 @@
    "surehit": "assets/domains/Regalia_surehit.gif",
    "surehitAdditive": false
   },
+  "Resonance": {
+   "max": "assets/domains/Resonance_max.gif",
+   "maxAdditive": true
+  },
   "Retrograde": {
    "max": "assets/domains/Retrograde_max.gif",
    "maxAdditive": true
@@ -1395,6 +1426,10 @@
    "surehit": "assets/domains/Seance_surehit.gif",
    "surehitAdditive": true
   },
+  "SevenSeals": {
+   "max": "assets/domains/SevenSeals_max.gif",
+   "maxAdditive": false
+  },
   "ShadowEminence": {
    "domain": "assets/domains/ShadowEminence_domain.png",
    "surehit": "assets/domains/ShadowEminence_surehit.gif",
@@ -1425,6 +1460,8 @@
   },
   "Siphon": {
    "domain": "assets/domains/Siphon_domain.png",
+   "max": "assets/domains/Siphon_max.gif",
+   "maxAdditive": true,
    "surehit": "assets/domains/Siphon_surehit.gif",
    "surehitAdditive": false
   },
@@ -1523,6 +1560,10 @@
    "domain": "assets/domains/TheImmortalGame_domain.png",
    "surehit": "assets/domains/TheImmortalGame_surehit.gif",
    "surehitAdditive": false
+  },
+  "TheTithe": {
+   "max": "assets/domains/TheTithe_max.gif",
+   "maxAdditive": false
   },
   "ToolManipulation": {
    "domain": "assets/domains/ToolManipulation_domain.png",
