@@ -1731,6 +1731,8 @@
   },
   "SevenTerrors": {
    "domain": "assets/domains/SevenTerrors_domain.png",
+   "max": "assets/domains/SevenTerrors_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/SevenTerrors_surehit.gif",
    "surehitAdditive": false
   },
