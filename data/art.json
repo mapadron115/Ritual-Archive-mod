@@ -584,6 +584,10 @@
   }
  ],
  "art": {
+  "AdaptiveHatred": {
+   "max": "assets/domains/AdaptiveHatred_max.gif",
+   "maxAdditive": false
+  },
   "AmazonChampion": {
    "maxParts": [
     {
@@ -1133,7 +1137,9 @@
    "maxAdditive": true
   },
   "IronSorcery": {
-   "domain": "assets/domains/IronSorcery_domain.png"
+   "domain": "assets/domains/IronSorcery_domain.png",
+   "max": "assets/domains/IronSorcery_max.gif",
+   "maxAdditive": false
   },
   "JudgementCut": {
    "maxParts": [
@@ -1211,6 +1217,8 @@
   },
   "MagneticManipulation": {
    "domain": "assets/domains/MagneticManipulation_domain.png",
+   "max": "assets/domains/MagneticManipulation_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/MagneticManipulation_surehit.gif",
    "surehitAdditive": false
   },
@@ -1235,6 +1243,10 @@
    "maxAdditive": true,
    "surehit": "assets/domains/MissileFist_surehit.gif",
    "surehitAdditive": false
+  },
+  "MisterFantastic": {
+   "max": "assets/domains/MisterFantastic_max.gif",
+   "maxAdditive": false
   },
   "MoonDregs": {
    "domain": "assets/domains/MoonDregs_domain.png",
@@ -1381,6 +1393,10 @@
   "RatioTechnique": {
    "max": "assets/domains/RatioTechnique_max.gif",
    "maxAdditive": true
+  },
+  "RefiningClockworks": {
+   "max": "assets/domains/RefiningClockworks_max.gif",
+   "maxAdditive": false
   },
   "Regalia": {
    "domain": "assets/domains/Regalia_domain.png",
@@ -1560,6 +1576,10 @@
    "domain": "assets/domains/TheImmortalGame_domain.png",
    "surehit": "assets/domains/TheImmortalGame_surehit.gif",
    "surehitAdditive": false
+  },
+  "TheThing": {
+   "max": "assets/domains/TheThing_max.gif",
+   "maxAdditive": false
   },
   "TheTithe": {
    "max": "assets/domains/TheTithe_max.gif",
