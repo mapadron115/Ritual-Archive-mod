@@ -1033,6 +1033,11 @@
    "surehit": "assets/domains/FaultlineLedger_surehit.gif",
    "surehitAdditive": false
   },
+  "FishHook": {
+   "domain": "assets/domains/FishHook_domain.png",
+   "surehit": "assets/domains/FishHook_surehit.gif",
+   "surehitAdditive": false
+  },
   "FlameOfFrenzy": {
    "domain": "assets/domains/FlameOfFrenzy_domain.png",
    "surehit": "assets/domains/FlameOfFrenzy_surehit.gif",
@@ -1121,6 +1126,11 @@
    "domain": "assets/domains/Hourglass_domain.png",
    "surehit": "assets/domains/Hourglass_surehit.gif",
    "surehitAdditive": true
+  },
+  "HuHuHu": {
+   "domain": "assets/domains/HuHuHu_domain.png",
+   "surehit": "assets/domains/HuHuHu_surehit.gif",
+   "surehitAdditive": false
   },
   "HumanTorch": {
    "max": "assets/domains/HumanTorch_max.gif",
@@ -1578,6 +1588,9 @@
    "domain": "assets/domains/Sunshine_domain.png",
    "surehit": "assets/domains/Sunshine_surehit.gif",
    "surehitAdditive": true
+  },
+  "SuperAutomaton": {
+   "domain": "assets/domains/SuperAutomaton_domain.png"
   },
   "Superposition": {
    "domain": "assets/domains/Superposition_domain.png",
