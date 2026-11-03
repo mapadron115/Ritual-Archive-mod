@@ -715,6 +715,16 @@
    "surehit": "assets/domains/BoogieWoogie_surehit.gif",
    "surehitAdditive": true
   },
+  "BraxtonVeil": {
+   "domain": "assets/domains/BraxtonVeil_domain.png",
+   "surehit": "assets/domains/BraxtonVeil_surehit.gif",
+   "surehitAdditive": false
+  },
+  "BronzeHead": {
+   "domain": "assets/domains/BronzeHead_domain.png",
+   "surehit": "assets/domains/BronzeHead_surehit.gif",
+   "surehitAdditive": false
+  },
   "BungeeGum": {
    "domain": "assets/domains/BungeeGum_domain.png",
    "surehit": "assets/domains/BungeeGum_surehit.gif",
@@ -845,6 +855,11 @@
   },
   "DeadlySentencing": {
    "surehit": "assets/domains/DeadlySentencing_surehit.gif",
+   "surehitAdditive": false
+  },
+  "DeathsDue": {
+   "domain": "assets/domains/DeathsDue_domain.png",
+   "surehit": "assets/domains/DeathsDue_surehit.gif",
    "surehitAdditive": false
   },
   "DeepPurple": {
@@ -1054,6 +1069,11 @@
    "surehit": "assets/domains/GoldenHour_surehit.gif",
    "surehitAdditive": true
   },
+  "GorgonsRegard": {
+   "domain": "assets/domains/GorgonsRegard_domain.png",
+   "surehit": "assets/domains/GorgonsRegard_surehit.gif",
+   "surehitAdditive": false
+  },
   "GravitySovereignty": {
    "domain": "assets/domains/GravitySovereignty_domain.png",
    "max": "assets/domains/GravitySovereignty_max.gif",
@@ -1141,6 +1161,11 @@
    "max": "assets/domains/IronSorcery_max.gif",
    "maxAdditive": false
   },
+  "JadeSlayer": {
+   "domain": "assets/domains/JadeSlayer_domain.png",
+   "surehit": "assets/domains/JadeSlayer_surehit.gif",
+   "surehitAdditive": false
+  },
   "JudgementCut": {
    "maxParts": [
     {
@@ -1207,6 +1232,11 @@
      "additive": false
     }
    ]
+  },
+  "LongStepProcession": {
+   "domain": "assets/domains/LongStepProcession_domain.png",
+   "surehit": "assets/domains/LongStepProcession_surehit.gif",
+   "surehitAdditive": false
   },
   "LoveRendezvous": {
    "domain": "assets/domains/LoveRendezvous_domain.png",
@@ -1279,6 +1309,11 @@
    "domain": "assets/domains/MythicalBeastAmber_domain.png",
    "max": "assets/domains/MythicalBeastAmber_max.gif",
    "maxAdditive": true
+  },
+  "NightmareKing": {
+   "domain": "assets/domains/NightmareKing_domain.png",
+   "surehit": "assets/domains/NightmareKing_surehit.gif",
+   "surehitAdditive": false
   },
   "NineKnots": {
    "domain": "assets/domains/NineKnots_domain.png",
@@ -1394,6 +1429,11 @@
    "max": "assets/domains/RatioTechnique_max.gif",
    "maxAdditive": true
   },
+  "RedEyedOmen": {
+   "domain": "assets/domains/RedEyedOmen_domain.png",
+   "surehit": "assets/domains/RedEyedOmen_surehit.gif",
+   "surehitAdditive": false
+  },
   "RefiningClockworks": {
    "max": "assets/domains/RefiningClockworks_max.gif",
    "maxAdditive": false
@@ -1441,6 +1481,11 @@
    "domain": "assets/domains/Seance_domain.png",
    "surehit": "assets/domains/Seance_surehit.gif",
    "surehitAdditive": true
+  },
+  "SevenSacredCoils": {
+   "domain": "assets/domains/SevenSacredCoils_domain.png",
+   "surehit": "assets/domains/SevenSacredCoils_surehit.gif",
+   "surehitAdditive": false
   },
   "SevenSeals": {
    "max": "assets/domains/SevenSeals_max.gif",
@@ -1572,6 +1617,11 @@
    "surehit": "assets/domains/TheFiftyTwo_surehit.gif",
    "surehitAdditive": false
   },
+  "TheHutTurns": {
+   "domain": "assets/domains/TheHutTurns_domain.png",
+   "surehit": "assets/domains/TheHutTurns_surehit.gif",
+   "surehitAdditive": false
+  },
   "TheImmortalGame": {
    "domain": "assets/domains/TheImmortalGame_domain.png",
    "surehit": "assets/domains/TheImmortalGame_surehit.gif",
@@ -1634,6 +1684,11 @@
    "max": "assets/domains/UmbralWitchcraft_max.gif",
    "maxAdditive": false
   },
+  "Vairocana": {
+   "domain": "assets/domains/Vairocana_domain.png",
+   "surehit": "assets/domains/Vairocana_surehit.gif",
+   "surehitAdditive": false
+  },
   "VectorAuthority": {
    "domain": "assets/domains/VectorAuthority_domain.png",
    "surehit": "assets/domains/VectorAuthority_surehit.gif",
@@ -1666,6 +1721,11 @@
    "domain": "assets/domains/WithManyVoices_domain.png",
    "surehit": "assets/domains/WithManyVoices_surehit.gif",
    "surehitAdditive": true
+  },
+  "WorldCoil": {
+   "domain": "assets/domains/WorldCoil_domain.png",
+   "surehit": "assets/domains/WorldCoil_surehit.gif",
+   "surehitAdditive": false
   },
   "Worldwaker": {
    "max": "assets/domains/Worldwaker_max.gif",
