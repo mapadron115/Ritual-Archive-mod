@@ -1637,6 +1637,10 @@
    "surehit": "assets/domains/RedEyedOmen_surehit.gif",
    "surehitAdditive": false
   },
+  "RedLionessFever": {
+   "max": "assets/domains/RedLionessFever_max.gif",
+   "maxAdditive": false
+  },
   "RefiningClockworks": {
    "max": "assets/domains/RefiningClockworks_max.gif",
    "maxAdditive": false
@@ -1884,6 +1888,15 @@
   },
   "TheHutTurns": {
    "domain": "assets/domains/TheHutTurns_domain.png",
+   "maxParts": [
+    {
+     "name": "Hit",
+     "src": "assets/domains/TheHutTurns_maxhit.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/TheHutTurns_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/TheHutTurns_surehit.gif",
    "surehitAdditive": false
   },
