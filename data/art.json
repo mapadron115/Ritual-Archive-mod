@@ -730,6 +730,8 @@
   },
   "BronzeHead": {
    "domain": "assets/domains/BronzeHead_domain.png",
+   "max": "assets/domains/BronzeHead_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/BronzeHead_surehit.gif",
    "surehitAdditive": false
   },
@@ -1146,6 +1148,10 @@
    "surehit": "assets/domains/GoldenHour_surehit.gif",
    "surehitAdditive": true
   },
+  "GoldenSlumber": {
+   "max": "assets/domains/GoldenSlumber_max.gif",
+   "maxAdditive": false
+  },
   "GorgonsRegard": {
    "domain": "assets/domains/GorgonsRegard_domain.png",
    "surehit": "assets/domains/GorgonsRegard_surehit.gif",
@@ -1222,6 +1228,21 @@
   "HumanTorch": {
    "max": "assets/domains/HumanTorch_max.gif",
    "maxAdditive": true
+  },
+  "HundredDemonRevel": {
+   "max": "assets/domains/HundredDemonRevel_max.gif",
+   "maxAdditive": false
+  },
+  "HundredHandedArsenal": {
+   "maxParts": [
+    {
+     "name": "Hit",
+     "src": "assets/domains/HundredHandedArsenal_maxhit.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/HundredHandedArsenal_max.gif",
+   "maxAdditive": false
   },
   "HundredSeals": {
    "max": "assets/domains/HundredSeals_max.gif",
@@ -1462,6 +1483,10 @@
    "domain": "assets/domains/MythicalBeastAmber_domain.png",
    "max": "assets/domains/MythicalBeastAmber_max.gif",
    "maxAdditive": true
+  },
+  "NerveStrike": {
+   "max": "assets/domains/NerveStrike_max.gif",
+   "maxAdditive": false
   },
   "NightmareKing": {
    "domain": "assets/domains/NightmareKing_domain.png",
