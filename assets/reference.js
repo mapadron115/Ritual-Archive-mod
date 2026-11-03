@@ -7,6 +7,8 @@
 
   const state = { q: "", collection: "", role: "", level: 20, life: 400, domainOnly: false };
   let techniques = [];
+  // Techniques the owner has shelved: they stay in the mod but aren't listed here. Remove an id to bring it back.
+  const SHELVED = new Set(["e243"]);
   // The artist's animated art (data/art.json, from docs/tools/site-art.py): aliens, and Domain/Maximum art by key.
   let artData = { aliens: [], art: {} };
   const keyOf = (t) => (t.file || "").split("/").pop().replace(/\.cs$/, "");
@@ -210,7 +212,7 @@
       $("#empty").textContent = "The technique list didn't load. Open this page from the website, not from a file on disk.";
       return;
     }
-    techniques = data.techniques;
+    techniques = data.techniques.filter((t) => !SHELVED.has(t.id));
     try { artData = await (await fetch("data/art.json")).json(); } catch (e) { /* the page works without art */ }
     const list = $("#list");
     const frag = document.createDocumentFragment();
