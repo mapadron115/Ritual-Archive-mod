@@ -612,6 +612,10 @@
     }
    ]
   },
+  "Amorphous": {
+   "max": "assets/domains/Amorphous_max.gif",
+   "maxAdditive": false
+  },
   "AntigravitySystem": {
    "domain": "assets/domains/AntigravitySystem_domain.png",
    "max": "assets/domains/AntigravitySystem_max.gif",
@@ -653,6 +657,10 @@
   "BackwardsMagic": {
    "max": "assets/domains/BackwardsMagic_max.gif",
    "maxAdditive": true
+  },
+  "Belief": {
+   "max": "assets/domains/Belief_max.gif",
+   "maxAdditive": false
   },
   "BlackBirdManipulation": {
    "domain": "assets/domains/BlackBirdManipulation_domain.png",
@@ -746,6 +754,10 @@
    "domain": "assets/domains/CentipedeShroud_domain.png",
    "surehit": "assets/domains/CentipedeShroud_surehit.gif",
    "surehitAdditive": false
+  },
+  "ChivalricSiege": {
+   "max": "assets/domains/ChivalricSiege_max.gif",
+   "maxAdditive": false
   },
   "ChronologicalReserve": {
    "domain": "assets/domains/ChronologicalReserve_domain.png"
@@ -917,6 +929,10 @@
    "surehit": "assets/domains/DisasterVermin_surehit.gif",
    "surehitAdditive": false
   },
+  "Discord": {
+   "max": "assets/domains/Discord_max.gif",
+   "maxAdditive": false
+  },
   "DivergentFist": {
    "max": "assets/domains/DivergentFist_max.gif",
    "maxAdditive": true
@@ -1064,6 +1080,8 @@
   },
   "FirstEmperor": {
    "domain": "assets/domains/FirstEmperor_domain.png",
+   "max": "assets/domains/FirstEmperor_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/FirstEmperor_surehit.gif",
    "surehitAdditive": false
   },
@@ -1201,6 +1219,10 @@
    "max": "assets/domains/HumanTorch_max.gif",
    "maxAdditive": true
   },
+  "HundredSeals": {
+   "max": "assets/domains/HundredSeals_max.gif",
+   "maxAdditive": false
+  },
   "IceFormation": {
    "domain": "assets/domains/IceFormation_domain.png",
    "max": "assets/domains/IceFormation_max.gif",
@@ -1238,6 +1260,8 @@
   },
   "JadeSlayer": {
    "domain": "assets/domains/JadeSlayer_domain.png",
+   "max": "assets/domains/JadeSlayer_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/JadeSlayer_surehit.gif",
    "surehitAdditive": false
   },
@@ -1514,6 +1538,10 @@
    "surehit": "assets/domains/PrayerSong_surehit.gif",
    "surehitAdditive": true
   },
+  "Presentation": {
+   "max": "assets/domains/Presentation_max.gif",
+   "maxAdditive": false
+  },
   "PrimeConduit": {
    "max": "assets/domains/PrimeConduit_max.gif",
    "maxAdditive": false
@@ -1789,6 +1817,10 @@
    "surehit": "assets/domains/TheImmortalGame_surehit.gif",
    "surehitAdditive": false
   },
+  "TheList": {
+   "max": "assets/domains/TheList_max.gif",
+   "maxAdditive": false
+  },
   "TheRiverKeeps": {
    "max": "assets/domains/TheRiverKeeps_max.gif",
    "maxAdditive": false
@@ -1914,6 +1946,29 @@
    "maxAdditive": true,
    "surehit": "assets/domains/WarGodsHousehold_surehit.gif",
    "surehitAdditive": true
+  },
+  "WarriorOfSpring": {
+   "max": "assets/domains/WarriorOfSpring_max.gif",
+   "maxAdditive": false
+  },
+  "WhiteDeath": {
+   "maxParts": [
+    {
+     "name": "Beam",
+     "src": "assets/domains/WhiteDeath_maxbeam.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamEnd",
+     "src": "assets/domains/WhiteDeath_maxbeamend.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamStart",
+     "src": "assets/domains/WhiteDeath_maxbeamstart.gif",
+     "additive": false
+    }
+   ]
   },
   "WhiteSilence": {
    "domain": "assets/domains/WhiteSilence_domain.png",
