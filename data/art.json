@@ -682,6 +682,15 @@
   },
   "Clone": {
    "domain": "assets/domains/Clone_domain.png",
+   "maxParts": [
+    {
+     "name": "Echo",
+     "src": "assets/domains/Clone_maxecho.gif",
+     "additive": true
+    }
+   ],
+   "max": "assets/domains/Clone_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/Clone_surehit.gif",
    "surehitAdditive": false
   },
@@ -739,6 +748,22 @@
    "maxAdditive": false,
    "surehit": "assets/domains/DarkClaw_surehit.gif",
    "surehitAdditive": false
+  },
+  "DarkDimension": {
+   "maxParts": [
+    {
+     "name": "BeamEnd",
+     "src": "assets/domains/DarkDimension_maxbeamend.gif",
+     "additive": false
+    },
+    {
+     "name": "BeamStart",
+     "src": "assets/domains/DarkDimension_maxbeamstart.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/DarkDimension_max.gif",
+   "maxAdditive": false
   },
   "DarkMoonCovenant": {
    "domain": "assets/domains/DarkMoonCovenant_domain.png",
@@ -871,6 +896,10 @@
    "domain": "assets/domains/FlameOfFrenzy_domain.png",
    "surehit": "assets/domains/FlameOfFrenzy_surehit.gif",
    "surehitAdditive": true
+  },
+  "FullCounter": {
+   "max": "assets/domains/FullCounter_max.gif",
+   "maxAdditive": true
   },
   "GWarstaff": {
    "domain": "assets/domains/GWarstaff_domain.png",
@@ -1114,6 +1143,8 @@
   },
   "SkyManipulation": {
    "domain": "assets/domains/SkyManipulation_domain.png",
+   "max": "assets/domains/SkyManipulation_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/SkyManipulation_surehit.gif",
    "surehitAdditive": false
   },
@@ -1149,6 +1180,10 @@
   },
   "TechniqueExtermination": {
    "max": "assets/domains/TechniqueExtermination_max.gif",
+   "maxAdditive": true
+  },
+  "Teleportation": {
+   "max": "assets/domains/Teleportation_max.gif",
    "maxAdditive": true
   },
   "TenShadowsTechnique": {
@@ -1196,6 +1231,15 @@
   },
   "WarGodsHousehold": {
    "domain": "assets/domains/WarGodsHousehold_domain.png",
+   "maxParts": [
+    {
+     "name": "Vessel",
+     "src": "assets/domains/WarGodsHousehold_maxvessel.gif",
+     "additive": true
+    }
+   ],
+   "max": "assets/domains/WarGodsHousehold_max.gif",
+   "maxAdditive": true,
    "surehit": "assets/domains/WarGodsHousehold_surehit.gif",
    "surehitAdditive": true
   }
