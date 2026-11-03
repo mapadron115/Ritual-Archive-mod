@@ -833,6 +833,25 @@
   },
   "FaJin": {
    "domain": "assets/domains/FaJin_domain.png",
+   "maxParts": [
+    {
+     "name": "Beam",
+     "src": "assets/domains/FaJin_maxbeam.gif",
+     "additive": true
+    },
+    {
+     "name": "BeamEnd",
+     "src": "assets/domains/FaJin_maxbeamend.gif",
+     "additive": true
+    },
+    {
+     "name": "BeamStart",
+     "src": "assets/domains/FaJin_maxbeamstart.gif",
+     "additive": true
+    }
+   ],
+   "max": "assets/domains/FaJin_max.gif",
+   "maxAdditive": true,
    "surehit": "assets/domains/FaJin_surehit.gif",
    "surehitAdditive": true
   },
@@ -983,6 +1002,15 @@
   },
   "ParalyzingGaze": {
    "domain": "assets/domains/ParalyzingGaze_domain.png",
+   "maxParts": [
+    {
+     "name": "Hold",
+     "src": "assets/domains/ParalyzingGaze_maxhold.gif",
+     "additive": false
+    }
+   ],
+   "max": "assets/domains/ParalyzingGaze_max.gif",
+   "maxAdditive": false,
    "surehit": "assets/domains/ParalyzingGaze_surehit.gif",
    "surehitAdditive": true
   },
@@ -1031,6 +1059,10 @@
    "surehit": "assets/domains/Regalia_surehit.gif",
    "surehitAdditive": false
   },
+  "Retrograde": {
+   "max": "assets/domains/Retrograde_max.gif",
+   "maxAdditive": true
+  },
   "RipperCyclotron": {
    "domain": "assets/domains/RipperCyclotron_domain.png",
    "surehit": "assets/domains/RipperCyclotron_surehit.gif",
@@ -1053,6 +1085,10 @@
    "surehit": "assets/domains/ScarletBloom_surehit.gif",
    "surehitAdditive": false
   },
+  "SchriftX": {
+   "max": "assets/domains/SchriftX_max.gif",
+   "maxAdditive": true
+  },
   "Seance": {
    "domain": "assets/domains/Seance_domain.png",
    "surehit": "assets/domains/Seance_surehit.gif",
@@ -1062,6 +1098,10 @@
    "domain": "assets/domains/ShadowEminence_domain.png",
    "surehit": "assets/domains/ShadowEminence_surehit.gif",
    "surehitAdditive": true
+  },
+  "ShadowKiller": {
+   "max": "assets/domains/ShadowKiller_max.gif",
+   "maxAdditive": false
   },
   "Shrine": {
    "surehit": "assets/domains/Shrine_surehit.gif",
@@ -1084,10 +1124,18 @@
    "surehit": "assets/domains/SoloForbiddenArea_surehit.gif",
    "surehitAdditive": true
   },
+  "StarDictator": {
+   "max": "assets/domains/StarDictator_max.gif",
+   "maxAdditive": true
+  },
   "StarRage": {
    "domain": "assets/domains/StarRage_domain.png",
    "surehit": "assets/domains/StarRage_surehit.gif",
    "surehitAdditive": false
+  },
+  "StarlightSymphony": {
+   "max": "assets/domains/StarlightSymphony_max.gif",
+   "maxAdditive": false
   },
   "StrawDollTechnique": {
    "domain": "assets/domains/StrawDollTechnique_domain.png",
@@ -1141,6 +1189,10 @@
    "domain": "assets/domains/VengefulSpiritManipulation_domain.png",
    "surehit": "assets/domains/VengefulSpiritManipulation_surehit.gif",
    "surehitAdditive": true
+  },
+  "Voracity": {
+   "max": "assets/domains/Voracity_max.gif",
+   "maxAdditive": false
   },
   "WarGodsHousehold": {
    "domain": "assets/domains/WarGodsHousehold_domain.png",
