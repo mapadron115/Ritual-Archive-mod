@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Installing the Ritual Archive Minecraft mod, the first session, default keys, server settings and operator commands.">
+<title>Getting Started · Ritual Archive for Minecraft</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar"><div class="shell nav">
+  <a class="brand" href="index.html"><span class="brand-mark" lang="ja">呪</span><span>Ritual Archive</span></a>
+  <nav class="navlinks" aria-label="Site"><a href="start.html" aria-current=page>Getting Started</a><a href="rules.html">Field Guide</a><a href="awakening.html">Awakening</a><a href="scores.html">Scores</a><a href="classes.html">Classes</a><a href="feats.html">Feats</a><a href="techniques.html">Techniques</a></nav>
+  <span class="doc-tag">In testing · 0.1.0</span>
+</div></header>
+<main>
+<section class="doc-head"><div class="shell">
+  
+  <p class="eyebrow"><span class="orn">❖</span> RA-MC-01 · Setup <span class="orn">❖</span></p>
+  <h1>Getting Started</h1>
+  <p class="lede">How to install the mod, what happens the first time you join, and every key and command.</p>
+  
+</div></section>
+<div class="shell layout"><nav class="toc" aria-label="Contents"><p class="toc-title">❖ Contents</p><ol><li><a href="#install"><span class="n">I</span>Installing</a></li><li><a href="#first"><span class="n">II</span>Your first session</a></li><li><a href="#keys"><span class="n">III</span>Keys</a></li><li><a href="#config"><span class="n">IV</span>Server settings</a></li><li><a href="#commands"><span class="n">V</span>Operator commands</a></li></ol></nav><div class="content"><section class="sec" id="install"><div class="sec-head"><span class="sec-kicker">Section I</span><h2>Installing</h2><p class="deck">NeoForge, Java 21, and one jar. Nothing else is required.</p></div><div class="sec-body">
+<div class="note"><div class="note-head">No public download yet</div><div class="note-body"><p>The mod is in testing and hasn't been released. This page says what a jar needs once you have one.</p></div></div>
+<div class="table-wrap"><table class="rtable "><thead><tr><th>Needs</th><th>Version</th></tr></thead><tbody><tr><td>Minecraft</td><td data-l="Version">1.21.1, exactly</td></tr><tr><td>NeoForge</td><td data-l="Version">21.1.265 or newer, for 1.21.1</td></tr><tr><td>Java</td><td data-l="Version">21</td></tr><tr><td>Other mods</td><td data-l="Version">None. The only dependencies it declares are NeoForge and Minecraft.</td></tr></tbody></table></div>
+<ol>
+<li>Install NeoForge for Minecraft 1.21.1 and create a profile with it.</li>
+<li>Put the jar (<code>ritualarchive-&lt;version&gt;-neoforge-&lt;mc&gt;.jar</code>) in that profile's <code>mods</code> folder.</li>
+<li>For multiplayer, put the same jar on the server too. Both sides need it.</li>
+</ol>
+</div></section><section class="sec" id="first"><div class="sec-head"><span class="sec-kicker">Section II</span><h2>Your first session</h2><p class="deck">From the first join to your first art.</p></div><div class="sec-body">
+<ol>
+<li><b>The Awakening opens by itself</b> when you first join. Pick your ancestry, heritage, class, scores, size, background, mindset and technique, then confirm. See <a href="awakening.html">The Awakening</a>. These picks are for good.</li>
+<li><b>You're given the Ritual Archive</b>, a book. Open it with <kbd>K</kbd> or by using it. It has tabs for Sorcerer, Class, Technique, Feats and Sorcery, and a search bar. Underlined lines are choices.</li>
+<li><b>Take your feat.</b> You get one pick each level. Picks that can't be undone ask you to confirm.</li>
+<li><b>Cast.</b> <kbd>Z</kbd> casts the selected art, and <kbd>V</kbd> moves to the next. Some arts are held down to pour in more, and go off when you let go.</li>
+<li><b>Level up.</b> Craft the chapter for level 2 and read it. See <a href="rules.html#levels">Levels and chapters</a>.</li>
+</ol>
+<p>The Archive only shows what you've reached: each level reveals pages and lines that weren't there before. They're hidden, not greyed out. This site shows them all.</p>
+</div></section><section class="sec" id="keys"><div class="sec-head"><span class="sec-kicker">Section III</span><h2>Keys</h2><p class="deck">The defaults. Change them under Options, Controls, in the Ritual Archive category.</p></div><div class="sec-body">
+<div class="table-wrap"><table class="rtable "><thead><tr><th class="nowrap">Key</th><th>Does</th></tr></thead><tbody><tr><td class="nowrap"><kbd>K</kbd></td><td data-l="Does">Open the Ritual Archive</td></tr><tr><td class="nowrap"><kbd>Z</kbd></td><td data-l="Does">Cast art (hold to pour)</td></tr><tr><td class="nowrap"><kbd>V</kbd></td><td data-l="Does">Switch art</td></tr><tr><td class="nowrap"><kbd>G</kbd></td><td data-l="Does">Quick art</td></tr><tr><td class="nowrap"><kbd>X</kbd></td><td data-l="Does">Maximum</td></tr><tr><td class="nowrap"><kbd>C</kbd></td><td data-l="Does">Domain Expansion</td></tr><tr><td class="nowrap"><kbd>Y</kbd></td><td data-l="Does">Technique Key 1</td></tr><tr><td class="nowrap"><kbd>R</kbd></td><td data-l="Does">Reverse Cursed Technique</td></tr><tr><td class="nowrap"><kbd>J</kbd></td><td data-l="Does">Simple Domain</td></tr><tr><td class="nowrap"><kbd>N</kbd></td><td data-l="Does">Class Art (sneak for its second use)</td></tr><tr><td class="nowrap"><kbd>B</kbd></td><td data-l="Does">Race Art (sneak: spend Inspiration)</td></tr></tbody></table></div>
+<p>Sneak changes a few of these: sneak + <kbd>N</kbd> is a class's second use, and sneak + <kbd>B</kbd> spends your Inspiration. Many techniques also read sneak in their own arts; their text says so.</p>
+<p>While an art is held out in front of you (a held sphere, say), the scroll wheel sets how far out it hangs.</p>
+</div></section><section class="sec" id="config"><div class="sec-head"><span class="sec-kicker">Section IV</span><h2>Server settings</h2><p class="deck">In each world's <code>serverconfig/ritualarchive-server.toml</code>.</p></div><div class="sec-body">
+<div class="table-wrap"><table class="rtable cards"><thead><tr><th>Setting</th><th>Default</th><th>What it does</th></tr></thead><tbody><tr><td><code>healthPerLevel</code></td><td data-l="Default">2.0</td><td data-l="What it does">Max health gained per level above 1 (2 = one heart).</td></tr><tr><td><code>damageScale</code></td><td data-l="Default">1.0</td><td data-l="What it does">Multiplies all technique damage.</td></tr><tr><td><code>pvpDamage</code></td><td data-l="Default">1.0</td><td data-l="What it does">Multiplies technique damage dealt to players.</td></tr><tr><td><code>techniquesBreakBlocks</code></td><td data-l="Default">true</td><td data-l="What it does">Whether techniques such as Hollow Purple erase blocks. Claims and protection mods are still respected.</td></tr></tbody></table></div>
+<p>Techniques respect claims and protection mods when they break or place blocks. Chapter recipes are plain JSON in <code>data/ritualarchive/recipe/</code>, so a modpack can change them.</p>
+</div></section><section class="sec" id="commands"><div class="sec-head"><span class="sec-kicker">Section V</span><h2>Operator commands</h2><p class="deck">For testing. They all start with <code>/ritualarchive</code> and need operator permission.</p></div><div class="sec-body"><div class="table-wrap"><table class="rtable cards"><thead><tr><th>Command</th><th>Does</th></tr></thead><tbody><tr><td><code>level &lt;n&gt; [player]</code></td><td data-l="Does">Sets a level, 1 to 20, and refills CE.</td></tr><tr><td><code>ce [player]</code></td><td data-l="Does">Refills Cursed Energy.</td></tr><tr><td><code>forget [player]</code></td><td data-l="Does">Forgets the technique.</td></tr><tr><td><code>learn rct|simple [player]</code></td><td data-l="Does">Teaches Reverse Cursed Technique or Simple Domain.</td></tr><tr><td><code>class &lt;id|none&gt; [player]</code></td><td data-l="Does">Sets a class. Ids: <code>juggernaut</code>, <code>scout</code>, <code>warrior</code>, <code>strategist</code>, <code>shikigami</code>, <code>support</code>, <code>heavenly</code>.</td></tr><tr><td><code>rest [player]</code></td><td data-l="Does">Takes a long rest.</td></tr><tr><td><code>unlearnfeats [player]</code></td><td data-l="Does">Clears feats and gives the picks back.</td></tr><tr><td><code>blackflash [count] [player]</code></td><td data-l="Does">The next critical hits are sure Black Flashes.</td></tr><tr><td><code>sun &lt;0-4|clock&gt;</code></td><td data-l="Does">Holds Sunshine's Solar Station at a rank, or returns it to the world clock.</td></tr></tbody></table></div></div></section></div></div>
+</main>
+<footer class="footer"><div class="shell">
+  <p>Ritual Archive for Minecraft, by mapadron115. Fan project: non-commercial, not affiliated with or endorsed by the rights holders of any referenced work.</p>
+  <p>Numbers on this site are read from the mod's source at version 0.1.0 with the default server settings. The mod is in testing, and they will change. Most techniques haven't been played yet: their pages show what the book prints, not how the art plays.</p>
+</div></footer>
+
+</body>
+</html>
