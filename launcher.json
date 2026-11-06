@@ -1,0 +1,25 @@
+{
+    "launcherVersion":  "0.1",
+    "launcherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher.exe",
+    "minecraft":  {
+                      "version":  "0.1.0+124bb84",
+                      "fileName":  "ritualarchive-0.1.0-neoforge-1.21.1.jar",
+                      "url":  "https://mapadron115.github.io/Ritual-Archive-mod/minecraft/ritualarchive-0.1.0-neoforge-1.21.1.jar",
+                      "sha256":  "a6dc7cc08c52a4c69fd4e9c55658dd61cac643576183bc4029602388bcad0022",
+                      "neoforge":  {
+                                       "version":  "21.1.265",
+                                       "url":  "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar",
+                                       "sha256":  "a547ccc30a80a675d1c61d04b55d10c45c39a86971e09731482c50a24399d1a2"
+                                   },
+                      "java":  {
+                                   "url":  "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.zip",
+                                   "sha256":  "2332c0b4cff6bed722da3567c91d5e47568bcba863fa4945d0a8d6fc76158628"
+                               }
+                  },
+    "terraria":  {
+                     "version":  "0.2",
+                     "url":  "https://github.com/mapadron115/Ritual-Archive-mod/releases/download/v0.2/JJKTechniques.tmod",
+                     "sha256":  "ffbe4f1b3fd0d69a7f5f480d22f5143c31e4912bd9b208f28aabc1f3f8632e70",
+                     "workshopId":  ""
+                 }
+}
