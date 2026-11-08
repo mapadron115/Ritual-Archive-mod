@@ -2,10 +2,10 @@
     "launcherVersion":  "0.1",
     "launcherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher.exe",
     "minecraft":  {
-                      "version":  "0.1.0+66b4209",
+                      "version":  "0.1.0+effd099",
                       "fileName":  "ritualarchive-0.1.0-neoforge-1.21.1.jar",
                       "url":  "https://mapadron115.github.io/Ritual-Archive-mod/minecraft/ritualarchive-0.1.0-neoforge-1.21.1.jar",
-                      "sha256":  "e1fccd4baa13238cdc24ab70630a9ebae556b1ae16225486973b751c6851617a",
+                      "sha256":  "909da077d028d9dfc5fd9b2e3568a0e243fe1d0c40ce39e59e85d0edc8dfad8a",
                       "neoforge":  {
                                        "version":  "21.1.265",
                                        "url":  "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar",
