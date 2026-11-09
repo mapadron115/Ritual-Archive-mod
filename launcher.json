@@ -1,8 +1,9 @@
 {
-    "launcherVersion":  "0.1",
+    "launcherVersion":  "0.2",
     "launcherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher.exe",
     "minecraft":  {
                       "version":  "0.1.0+67a8666",
+                      "server":  "209.192.186.247:25678",
                       "fileName":  "ritualarchive-0.1.0-neoforge-1.21.1.jar",
                       "url":  "https://mapadron115.github.io/Ritual-Archive-mod/minecraft/ritualarchive-0.1.0-neoforge-1.21.1.jar",
                       "sha256":  "c58d2d03829e472a378d9bcb93def7bf1e619ab06bcc4ec18182d82d8c53e036",
