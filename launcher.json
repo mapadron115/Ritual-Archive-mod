@@ -63,6 +63,13 @@
                                             "url":  "https://edge.forgecdn.net/files/8335/665/kotlinforforge-5.12.0-all.jar",
                                             "sha256":  "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
                                             "page":  "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+                                        },
+                                        {
+                                            "name":  "Just Enough Items",
+                                            "fileName":  "jei-1.21.1-neoforge-19.44.0.401.jar",
+                                            "url":  "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Tbomhybz/jei-1.21.1-neoforge-19.44.0.401.jar",
+                                            "sha256":  "8491f902a3ff8a4170a2c4f64efbc0186b6665825f20daab4789cb5102c1ac9b",
+                                            "page":  "https://modrinth.com/mod/jei"
                                         }
                                     ],
                       "neoforge":  {
