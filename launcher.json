@@ -83,9 +83,9 @@
                                }
                   },
     "terraria":  {
-                     "version":  "0.3",
-                     "url":  "https://github.com/mapadron115/Ritual-Archive-mod/releases/download/v0.3/JJKTechniques.tmod",
-                     "sha256":  "0b13a3a30a72d11e2f591e841661cb22b4bd78134bd281e29cafa2c734f48569",
+                     "version":  "0.4",
+                     "url":  "https://github.com/mapadron115/Ritual-Archive-mod/releases/download/v0.4/JJKTechniques.tmod",
+                     "sha256":  "4ca42fabe2260f24538fd5f8651c43b6079664a7e66709cf53eb18b175be97e4",
                      "workshopId":  ""
                  }
 }
