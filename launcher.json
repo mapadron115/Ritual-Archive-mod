@@ -4,11 +4,11 @@
     "linuxLauncherVersion":  "0.1",
     "linuxLauncherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher-linux-x64",
     "minecraft":  {
-                      "version":  "0.1.0+a0cb3cf",
+                      "version":  "0.1.0+cf47e68",
                       "server":  "209.192.186.247:25678",
                       "fileName":  "ritualarchive-0.1.0-neoforge-1.21.1.jar",
                       "url":  "https://mapadron115.github.io/Ritual-Archive-mod/minecraft/ritualarchive-0.1.0-neoforge-1.21.1.jar",
-                      "sha256":  "7b52f17978c3b5d4b1beda6a1e4a91450aca648a6d237a3c08db1f277ecdf823",
+                      "sha256":  "89510a0885c88fa6076b498cfaea491cecd3c767fdbe086fdbacd682d61d4b3f",
                       "extraMods":  [
                                         {
                                             "name":  "Twilight Forest",
