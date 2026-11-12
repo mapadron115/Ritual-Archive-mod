@@ -1,6 +1,8 @@
 {
     "launcherVersion":  "0.3",
     "launcherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher.exe",
+    "linuxLauncherVersion":  "0.1",
+    "linuxLauncherUrl":  "https://mapadron115.github.io/Ritual-Archive-mod/RitualArchiveLauncher-linux-x64",
     "minecraft":  {
                       "version":  "0.1.0+a0cb3cf",
                       "server":  "209.192.186.247:25678",
@@ -80,6 +82,10 @@
                       "java":  {
                                    "url":  "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.zip",
                                    "sha256":  "2332c0b4cff6bed722da3567c91d5e47568bcba863fa4945d0a8d6fc76158628"
+                               },
+                      "javaLinux":  {
+                                   "url":  "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jre_x64_linux_hotspot_21.0.13_9.tar.gz",
+                                   "sha256":  "a535a1df9c6284d9618872984e026ae0352d1f7e9e0605425c0e6114f47351dd"
                                }
                   },
     "terraria":  {
